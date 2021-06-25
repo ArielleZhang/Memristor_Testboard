@@ -1,0 +1,29 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Program-Files/Vivado/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto a16486614d714982b14ae0cb78c501f9 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_PSI_behav xil_defaultlib.tb_PSI xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'counter' [D:/Program-Files/Vivado/Vivado/vivado_prj/SERDES_simu/SERDES_simu.srcs/sources_1/new/Serializer_FPGA.v:115]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'counter' [D:/Program-Files/Vivado/Vivado/vivado_prj/SERDES_simu/SERDES_simu.srcs/sources_1/new/Serializer_FPGA.v:116]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'counter' [D:/Program-Files/Vivado/Vivado/vivado_prj/SERDES_simu/SERDES_simu.srcs/sources_1/new/Serializer_FPGA.v:117]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'counter' [D:/Program-Files/Vivado/Vivado/vivado_prj/SERDES_simu/SERDES_simu.srcs/sources_1/new/Serializer_FPGA.v:118]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'counter' [D:/Program-Files/Vivado/Vivado/vivado_prj/SERDES_simu/SERDES_simu.srcs/sources_1/new/Serializer_FPGA.v:119]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'counter' [D:/Program-Files/Vivado/Vivado/vivado_prj/SERDES_simu/SERDES_simu.srcs/sources_1/new/Serializer_FPGA.v:120]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'counter' [D:/Program-Files/Vivado/Vivado/vivado_prj/SERDES_simu/SERDES_simu.srcs/sources_1/new/Serializer_FPGA.v:121]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'counter' [D:/Program-Files/Vivado/Vivado/vivado_prj/SERDES_simu/SERDES_simu.srcs/sources_1/new/Serializer_FPGA.v:122]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'counter' [D:/Program-Files/Vivado/Vivado/vivado_prj/SERDES_simu/SERDES_simu.srcs/sources_1/new/Serializer_FPGA.v:123]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'counter' [D:/Program-Files/Vivado/Vivado/vivado_prj/SERDES_simu/SERDES_simu.srcs/sources_1/new/Serializer_FPGA.v:124]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'counter' [D:/Program-Files/Vivado/Vivado/vivado_prj/SERDES_simu/SERDES_simu.srcs/sources_1/new/Serializer_FPGA.v:125]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'counter' [D:/Program-Files/Vivado/Vivado/vivado_prj/SERDES_simu/SERDES_simu.srcs/sources_1/new/Serializer_FPGA.v:126]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PSI_module
+Compiling module xil_defaultlib.PSI
+Compiling module xil_defaultlib.SPI
+Compiling module xil_defaultlib.Deserializer_for_test
+Compiling module xil_defaultlib.tb_PSI
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_PSI_behav
