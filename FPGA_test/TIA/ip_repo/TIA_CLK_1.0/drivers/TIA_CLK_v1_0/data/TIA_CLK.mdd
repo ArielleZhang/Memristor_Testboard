@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER TIA_CLK
+	OPTION supported_peripherals = (TIA_CLK);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = TIA_CLK;
+END DRIVER

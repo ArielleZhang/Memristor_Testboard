@@ -1,0 +1,464 @@
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-A1
+Removed Pin From Net: NetName=ADC_CLK Pin=FMC HPC1-A2
+Removed Pin From Net: NetName=ADC_CLK_SAMPLE Pin=FMC HPC1-A3
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-A4
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-A5
+Removed Pin From Net: NetName=ADC_DOUT10 Pin=FMC HPC1-A6
+Removed Pin From Net: NetName=ADC_DOUT9 Pin=FMC HPC1-A7
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-A8
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-A9
+Removed Pin From Net: NetName=ADC_DOUT8 Pin=FMC HPC1-A10
+Removed Pin From Net: NetName=ADC_DOUT7 Pin=FMC HPC1-A11
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-A12
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-A13
+Removed Pin From Net: NetName=ADC_DOUT6 Pin=FMC HPC1-A14
+Removed Pin From Net: NetName=ADC_DOUT5 Pin=FMC HPC1-A15
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-A16
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-A17
+Removed Pin From Net: NetName=ADC_DOUT4 Pin=FMC HPC1-A18
+Removed Pin From Net: NetName=ADC_DOUT3 Pin=FMC HPC1-A19
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-A20
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-A21
+Removed Pin From Net: NetName=ADC_DOUT2 Pin=FMC HPC1-A22
+Removed Pin From Net: NetName=ADC_DOUT1 Pin=FMC HPC1-A23
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-A24
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-A25
+Removed Pin From Net: NetName=TIA_CIN0 Pin=FMC HPC1-A26
+Removed Pin From Net: NetName=TIA_CIN2 Pin=FMC HPC1-A27
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-A28
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-A29
+Removed Pin From Net: NetName=TIA_CIN5 Pin=FMC HPC1-A30
+Removed Pin From Net: NetName=TIA_CIN3 Pin=FMC HPC1-A31
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-A32
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-A33
+Removed Pin From Net: NetName=TIA_CIN1 Pin=FMC HPC1-A34
+Removed Pin From Net: NetName=TIA_CIN4 Pin=FMC HPC1-A35
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-A36
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-A37
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-A40
+Removed Pin From Net: NetName=TIA_CIN6 Pin=FMC HPC1-B1
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-B2
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-B3
+Removed Pin From Net: NetName=DAC_SYNC_IN1 Pin=FMC HPC1-B4
+Removed Pin From Net: NetName=DAC_DATAIN_IN1 Pin=FMC HPC1-B5
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-B6
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-B7
+Removed Pin From Net: NetName=DAC_RST_IN1 Pin=FMC HPC1-B8
+Removed Pin From Net: NetName=DAC_CLK_AZ_IN1 Pin=FMC HPC1-B9
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-B10
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-B11
+Removed Pin From Net: NetName=DAC_CLK_DAC_IN1 Pin=FMC HPC1-B12
+Removed Pin From Net: NetName=DAC_CLK_IN1 Pin=FMC HPC1-B13
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-B14
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-B15
+Removed Pin From Net: NetName=DAC_TDAC_IN1 Pin=FMC HPC1-B16
+Removed Pin From Net: NetName=DAC_TBUFFER_IN1 Pin=FMC HPC1-B17
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-B18
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-B19
+Removed Pin From Net: NetName=DAC_SHIFTOUT1 Pin=FMC HPC1-B20
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-B22
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-B23
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-B26
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-B27
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-B30
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-B31
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-B34
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-B35
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-B38
+Removed Pin From Net: NetName=+3V Pin=FMC HPC1-B39
+Removed Pin From Net: NetName=ADC_VIN Pin=J1-MH
+Removed Pin From Net: NetName=ADC_VIN Pin=J1-MH
+Removed Pin From Net: NetName=TIA_VIN Pin=J2-MH
+Removed Pin From Net: NetName=TIA_VIN Pin=J2-MH
+Removed Pin From Net: NetName=TIA_VIP Pin=J3-MH
+Removed Pin From Net: NetName=TIA_VIP Pin=J3-MH
+Removed Pin From Net: NetName=TIA_VOUT Pin=J4-MH
+Removed Pin From Net: NetName=TIA_VOUT Pin=J4-MH
+Removed Pin From Net: NetName=DAC_TDAC_OUT1 Pin=J5-MH
+Removed Pin From Net: NetName=DAC_TDAC_OUT1 Pin=J5-MH
+Removed Pin From Net: NetName=DAC_VREF1 Pin=J6-MH
+Removed Pin From Net: NetName=DAC_VREF1 Pin=J6-MH
+Removed Pin From Net: NetName=DAC_TBUFFER_OUT1 Pin=J7-MH
+Removed Pin From Net: NetName=DAC_TBUFFER_OUT1 Pin=J7-MH
+Change Component Designator: OldDesignator=JP1 NewDesignator=JP8
+Change Component Designator: OldDesignator=JP2 NewDesignator=JP9
+Change Component Designator: OldDesignator=JP3 NewDesignator=JP10
+Change Component Designator: OldDesignator=JP4 NewDesignator=JP11
+Change Component Designator: OldDesignator=JP5 NewDesignator=JP12
+Change Component Designator: OldDesignator=JP6 NewDesignator=JP13
+Added Component: Designator=FMC HPC1(FMC_HPC)
+Added Component: Designator=J1(ROS-32K243-40ML5_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.rosenberger.de"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://rosenberger.de/ok/images/documents/db/32K243-40ML5.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://rosenberger.de/ok/images/documents/db/32K243-40ML5.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Series Overview / Design Note"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4URL"; Value = "http://rosenberger.de/ok/images/documents/spez/32.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink5Description"; Value = "Webshop / RFQ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink5URL"; Value = "http://www.rosenberger.com/en/contact/sales/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "c00"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Note"; Value = "Footprint in library is a generic example - only application specific footprint delivers High Performance"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "SMA Right Angle Jack, Edge Mount Screw On, 14.50 x 14.00 x 5.15 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "32K243-40ML5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "c00"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "32K243-40ML5"; VariantName = "[No Variations]"
+Added Component: Designator=J2(ROS-32K243-40ML5_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.rosenberger.de"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://rosenberger.de/ok/images/documents/db/32K243-40ML5.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://rosenberger.de/ok/images/documents/db/32K243-40ML5.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Series Overview / Design Note"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4URL"; Value = "http://rosenberger.de/ok/images/documents/spez/32.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink5Description"; Value = "Webshop / RFQ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink5URL"; Value = "http://www.rosenberger.com/en/contact/sales/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "c00"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Note"; Value = "Footprint in library is a generic example - only application specific footprint delivers High Performance"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "SMA Right Angle Jack, Edge Mount Screw On, 14.50 x 14.00 x 5.15 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "32K243-40ML5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "c00"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "32K243-40ML5"; VariantName = "[No Variations]"
+Added Component: Designator=J3(ROS-32K243-40ML5_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.rosenberger.de"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://rosenberger.de/ok/images/documents/db/32K243-40ML5.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://rosenberger.de/ok/images/documents/db/32K243-40ML5.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Series Overview / Design Note"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4URL"; Value = "http://rosenberger.de/ok/images/documents/spez/32.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink5Description"; Value = "Webshop / RFQ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink5URL"; Value = "http://www.rosenberger.com/en/contact/sales/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "c00"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Note"; Value = "Footprint in library is a generic example - only application specific footprint delivers High Performance"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "SMA Right Angle Jack, Edge Mount Screw On, 14.50 x 14.00 x 5.15 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "32K243-40ML5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "c00"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "32K243-40ML5"; VariantName = "[No Variations]"
+Added Component: Designator=J4(ROS-32K243-40ML5_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.rosenberger.de"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://rosenberger.de/ok/images/documents/db/32K243-40ML5.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://rosenberger.de/ok/images/documents/db/32K243-40ML5.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Series Overview / Design Note"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4URL"; Value = "http://rosenberger.de/ok/images/documents/spez/32.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink5Description"; Value = "Webshop / RFQ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink5URL"; Value = "http://www.rosenberger.com/en/contact/sales/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "c00"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Note"; Value = "Footprint in library is a generic example - only application specific footprint delivers High Performance"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "SMA Right Angle Jack, Edge Mount Screw On, 14.50 x 14.00 x 5.15 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "32K243-40ML5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "c00"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "32K243-40ML5"; VariantName = "[No Variations]"
+Added Component: Designator=J5(ROS-32K243-40ML5_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.rosenberger.de"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://rosenberger.de/ok/images/documents/db/32K243-40ML5.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://rosenberger.de/ok/images/documents/db/32K243-40ML5.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Series Overview / Design Note"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4URL"; Value = "http://rosenberger.de/ok/images/documents/spez/32.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink5Description"; Value = "Webshop / RFQ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink5URL"; Value = "http://www.rosenberger.com/en/contact/sales/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "c00"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Note"; Value = "Footprint in library is a generic example - only application specific footprint delivers High Performance"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "SMA Right Angle Jack, Edge Mount Screw On, 14.50 x 14.00 x 5.15 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "32K243-40ML5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "c00"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "32K243-40ML5"; VariantName = "[No Variations]"
+Added Component: Designator=J6(ROS-32K243-40ML5_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.rosenberger.de"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://rosenberger.de/ok/images/documents/db/32K243-40ML5.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://rosenberger.de/ok/images/documents/db/32K243-40ML5.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Series Overview / Design Note"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4URL"; Value = "http://rosenberger.de/ok/images/documents/spez/32.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink5Description"; Value = "Webshop / RFQ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink5URL"; Value = "http://www.rosenberger.com/en/contact/sales/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "c00"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Note"; Value = "Footprint in library is a generic example - only application specific footprint delivers High Performance"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "SMA Right Angle Jack, Edge Mount Screw On, 14.50 x 14.00 x 5.15 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "32K243-40ML5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "c00"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "32K243-40ML5"; VariantName = "[No Variations]"
+Added Component: Designator=J7(ROS-32K243-40ML5_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.rosenberger.de"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://rosenberger.de/ok/images/documents/db/32K243-40ML5.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://rosenberger.de/ok/images/documents/db/32K243-40ML5.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Series Overview / Design Note"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4URL"; Value = "http://rosenberger.de/ok/images/documents/spez/32.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink5Description"; Value = "Webshop / RFQ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink5URL"; Value = "http://www.rosenberger.com/en/contact/sales/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "c00"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Note"; Value = "Footprint in library is a generic example - only application specific footprint delivers High Performance"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "SMA Right Angle Jack, Edge Mount Screw On, 14.50 x 14.00 x 5.15 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "32K243-40ML5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "c00"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "32K243-40ML5"; VariantName = "[No Variations]"
+Added Component: Designator=JP1(01x03_0.1in_th_straight_b_nom)
+Added Component: Designator=JP2(01x03_0.1in_th_straight_b_nom)
+Added Component: Designator=JP3(01x03_0.1in_th_straight_b_nom)
+Added Component: Designator=JP4(01x03_0.1in_th_straight_b_nom)
+Added Component: Designator=JP5(01x03_0.1in_th_straight_b_nom)
+Added Component: Designator=JP6(01x03_0.1in_th_straight_b_nom)
+Added Component: Designator=JP7(01x03_0.1in_th_straight_b_nom)
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-A1
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-A4
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-A5
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-A8
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-A9
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-A12
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-A13
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-A16
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-A17
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-A20
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-A21
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-A24
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-A25
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-A28
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-A29
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-A32
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-A33
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-A36
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-A37
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-A40
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-B2
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-B3
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-B6
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-B7
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-B10
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-B11
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-B14
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-B15
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-B18
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-B19
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-B22
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-B23
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-B26
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-B27
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-B30
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-B31
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-B34
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-B35
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-B38
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-B39
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-C1
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-C4
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-C5
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-C8
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-C9
+Added Pin To Net: NetName=TIA_CIN2 Pin=FMC HPC1-C10
+Added Pin To Net: NetName=TIA_CIN0 Pin=FMC HPC1-C11
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-C12
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-C13
+Added Pin To Net: NetName=TIA_CIN5 Pin=FMC HPC1-C14
+Added Pin To Net: NetName=TIA_CIN3 Pin=FMC HPC1-C15
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-C16
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-C17
+Added Pin To Net: NetName=TIA_CIN1 Pin=FMC HPC1-C18
+Added Pin To Net: NetName=TIA_CIN4 Pin=FMC HPC1-C19
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-C20
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-C21
+Added Pin To Net: NetName=TIA_CIN6 Pin=FMC HPC1-C22
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-C24
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-C25
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-C28
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-C29
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-C32
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-C33
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-C36
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-C38
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-C40
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-D2
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-D3
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-D6
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-D7
+Added Pin To Net: NetName=DAC_SYNC_IN1 Pin=FMC HPC1-D8
+Added Pin To Net: NetName=DAC_DATAIN_IN1 Pin=FMC HPC1-D9
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-D10
+Added Pin To Net: NetName=DAC_RST_IN1 Pin=FMC HPC1-D11
+Added Pin To Net: NetName=DAC_CLK_AZ_IN1 Pin=FMC HPC1-D12
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-D13
+Added Pin To Net: NetName=DAC_CLK_DAC_IN1 Pin=FMC HPC1-D14
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-D16
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-D19
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-D22
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-D25
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-D28
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-D37
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-D39
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-E1
+Added Pin To Net: NetName=DAC_SHIFTOUT1 Pin=FMC HPC1-E2
+Added Pin To Net: NetName=DAC_TBUFFER_IN1 Pin=FMC HPC1-E3
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-E4
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-E5
+Added Pin To Net: NetName=DAC_TDAC_IN1 Pin=FMC HPC1-E6
+Added Pin To Net: NetName=DAC_CLK_IN1 Pin=FMC HPC1-E7
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-E8
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-E11
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-E14
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-E17
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-E20
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-E23
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-E26
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-E29
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-E32
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-E35
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-E38
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-E40
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-F2
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-F3
+Added Pin To Net: NetName=ADC_CLK Pin=FMC HPC1-F4
+Added Pin To Net: NetName=ADC_CLK_SAMPLE Pin=FMC HPC1-F5
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-F6
+Added Pin To Net: NetName=ADC_DOUT10 Pin=FMC HPC1-F7
+Added Pin To Net: NetName=ADC_DOUT9 Pin=FMC HPC1-F8
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-F9
+Added Pin To Net: NetName=ADC_DOUT8 Pin=FMC HPC1-F10
+Added Pin To Net: NetName=ADC_DOUT7 Pin=FMC HPC1-F11
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-F12
+Added Pin To Net: NetName=ADC_DOUT6 Pin=FMC HPC1-F13
+Added Pin To Net: NetName=ADC_DOUT5 Pin=FMC HPC1-F14
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-F15
+Added Pin To Net: NetName=ADC_DOUT4 Pin=FMC HPC1-F16
+Added Pin To Net: NetName=ADC_DOUT3 Pin=FMC HPC1-F17
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-F18
+Added Pin To Net: NetName=ADC_DOUT2 Pin=FMC HPC1-F19
+Added Pin To Net: NetName=ADC_DOUT1 Pin=FMC HPC1-F20
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-F21
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-F24
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-F27
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-F30
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-F33
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-F36
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-F39
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-G1
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-G4
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-G5
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-G8
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-G11
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-G14
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-G17
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-G20
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-G23
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-G26
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-G29
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-G32
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-G35
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-G38
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-G40
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-H3
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-H6
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-H9
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-H12
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-H15
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-H18
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-H21
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-H24
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-H27
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-H30
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-H33
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-H36
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-H39
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-J1
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-J4
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-J5
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-J8
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-J11
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-J14
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-J17
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-J20
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-J23
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-J26
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-J29
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-J32
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-J35
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-J38
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-J40
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-K3
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-K6
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-K9
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-K12
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-K15
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-K18
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-K21
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-K24
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-K27
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-K30
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-K33
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-K36
+Added Pin To Net: NetName=+3V Pin=FMC HPC1-K39
+Added Pin To Net: NetName=+3V Pin=J1-MH
+Added Pin To Net: NetName=+3V Pin=J1-MH
+Added Pin To Net: NetName=+3V Pin=J2-MH
+Added Pin To Net: NetName=+3V Pin=J2-MH
+Added Pin To Net: NetName=+3V Pin=J3-MH
+Added Pin To Net: NetName=+3V Pin=J3-MH
+Added Pin To Net: NetName=+3V Pin=J4-MH
+Added Pin To Net: NetName=+3V Pin=J4-MH
+Added Pin To Net: NetName=+3V Pin=J5-MH
+Added Pin To Net: NetName=+3V Pin=J5-MH
+Added Pin To Net: NetName=+3V Pin=J6-MH
+Added Pin To Net: NetName=+3V Pin=J6-MH
+Added Pin To Net: NetName=+3V Pin=J7-MH
+Added Pin To Net: NetName=+3V Pin=J7-MH
+Added Pin To Net: NetName=ADC_VIN Pin=JP1-1
+Added Pin To Net: NetName=+3V Pin=JP1-3
+Added Pin To Net: NetName=TIA_VIN Pin=JP2-1
+Added Pin To Net: NetName=+3V Pin=JP2-3
+Added Pin To Net: NetName=TIA_VIP Pin=JP3-1
+Added Pin To Net: NetName=+3V Pin=JP3-3
+Added Pin To Net: NetName=TIA_VOUT Pin=JP4-1
+Added Pin To Net: NetName=+3V Pin=JP4-3
+Added Pin To Net: NetName=DAC_TDAC_OUT1 Pin=JP5-1
+Added Pin To Net: NetName=+3V Pin=JP5-3
+Added Pin To Net: NetName=DAC_VREF1 Pin=JP6-1
+Added Pin To Net: NetName=+3V Pin=JP6-3
+Added Pin To Net: NetName=DAC_TBUFFER_OUT1 Pin=JP7-1
+Added Pin To Net: NetName=+3V Pin=JP7-3
+Change Net Name : Old Net Name=NetJP1_2 New Net Name=NetJP8_2
+Change Net Name : Old Net Name=NetJP2_2 New Net Name=NetJP9_2
+Change Net Name : Old Net Name=NetJP3_2 New Net Name=NetJP10_2
+Change Net Name : Old Net Name=NetJP5_2 New Net Name=NetJP12_2
+Change Net Name : Old Net Name=NetJP6_2 New Net Name=NetJP13_2
+Added Pin To Net: NetName=NetJ1_1 Pin=J1-1
+Added Pin To Net: NetName=NetJ1_1 Pin=JP1-2
+Added Net: Name=NetJ1_1
+Added Pin To Net: NetName=NetJ2_1 Pin=J2-1
+Added Pin To Net: NetName=NetJ2_1 Pin=JP2-2
+Added Net: Name=NetJ2_1
+Added Pin To Net: NetName=NetJ3_1 Pin=J3-1
+Added Pin To Net: NetName=NetJ3_1 Pin=JP3-2
+Added Net: Name=NetJ3_1
+Added Pin To Net: NetName=NetJ4_1 Pin=J4-1
+Added Pin To Net: NetName=NetJ4_1 Pin=JP4-2
+Added Net: Name=NetJ4_1
+Added Pin To Net: NetName=NetJ5_1 Pin=J5-1
+Added Pin To Net: NetName=NetJ5_1 Pin=JP5-2
+Added Net: Name=NetJ5_1
+Added Pin To Net: NetName=NetJ6_1 Pin=J6-1
+Added Pin To Net: NetName=NetJ6_1 Pin=JP6-2
+Added Net: Name=NetJ6_1
+Added Pin To Net: NetName=NetJ7_1 Pin=J7-1
+Added Pin To Net: NetName=NetJ7_1 Pin=JP7-2
+Added Net: Name=NetJ7_1
+Added Class: Name=12V_to_5V
+Added Room: Name=12V_to_5V

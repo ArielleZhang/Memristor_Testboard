@@ -1,0 +1,17 @@
+﻿"Symbol";"Value";"Unit";
+"SUPPLIER_NAME";"RS Components";"";
+"TraceParts.PartVersion";"1.2.3";"";
+"SUPPLIER";"TE Connectivity";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartNumber";"10-15062010-162825";"";
+"TraceParts.PartLanguage";"en";"";
+"DESIGN";"TE Connectivity 1.27mm Pitch Female PLCC Socket, 84 Way, Through Hole, Tin over Nickel Plated Contacts 1A";"";
+"TraceParts.InstanceId";"10-15062010-1628253N505JG8AWASF6YOULFR4349E";"";
+"TraceParts.PartTitle";"TE Connectivity 1.27mm Pitch Female PLCC Socket, 84 Way, Through Hole, Tin over Nickel Plated Contacts 1A";"";
+"TraceParts.PartStatusId";"";"";
+"REFERENCE";"1-822473-7";"";
+"Buy_Now";"https://uk.rs-online.com/web/p/products/2798557?cm_mmc=en-ds-_-mcad-_-traceparts-_-2798557'";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"rs_stock_number";"2798557";"";
+"TraceParts.ClassPath";"";"";
+"allied_stock_number";"70042922";"";

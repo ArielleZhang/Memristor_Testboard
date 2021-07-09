@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER R_2R_switches
+	OPTION supported_peripherals = (R_2R_switches);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = R_2R_switches;
+END DRIVER
