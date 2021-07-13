@@ -1,0 +1,5 @@
+Added Pin To Net: NetName=+3V Pin=C1-1
+Added Pin To Net: NetName=+3V Pin=C2-1
+Added Pin To Net: NetName=+3V Pin=JP8-4
+Added Pin To Net: NetName=VOUT_0.2V-5V Pin=JP13-2
+Change Net Name : Old Net Name=NetC10_1 New Net Name=12-5V_regulator

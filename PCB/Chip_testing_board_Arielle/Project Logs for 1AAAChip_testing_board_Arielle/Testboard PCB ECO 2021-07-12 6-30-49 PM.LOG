@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=DAC_TDAC_IN1 Pin=FMC HPC1-E2
+Removed Pin From Net: NetName=DAC_CLK_IN1 Pin=FMC HPC1-E7
+Change Component Designator: OldDesignator=VR1 NewDesignator=0.5-2V
+Change Component Designator: OldDesignator=VR2 NewDesignator=2-5V
+Change Component Designator: OldDesignator=VR3 NewDesignator=0.9-5V
+Change Component Designator: OldDesignator=VR4 NewDesignator=0.2-2V
+Change Component Designator: OldDesignator=VR5 NewDesignator=0.2-5V
+Change Component Designator: OldDesignator=VR6 NewDesignator=0.2-3.3V
+Added Pin To Net: NetName=+3V Pin=C1-1
+Added Pin To Net: NetName=+3V Pin=C2-1
+Added Pin To Net: NetName=DAC_CLK_IN1 Pin=FMC HPC1-E2
+Added Pin To Net: NetName=DAC_TDAC_IN1 Pin=FMC HPC1-E7
+Added Pin To Net: NetName=+3V Pin=JP8-4
+Added Pin To Net: NetName=VOUT_0.2V-5V Pin=JP13-2
+Change Net Name : Old Net Name=Net*1_1 New Net Name=Net0.5-2V_5
+Change Net Name : Old Net Name=Net*1_3 New Net Name=Net0.5-2V_3
+Change Net Name : Old Net Name=Net*2_1 New Net Name=Net2-5V_5
+Change Net Name : Old Net Name=Net*2_3 New Net Name=Net2-5V_3
+Change Net Name : Old Net Name=Net*3_1 New Net Name=Net0.9-5V_5
+Change Net Name : Old Net Name=Net*3_3 New Net Name=Net0.9-5V_3
+Change Net Name : Old Net Name=Net*4_1 New Net Name=Net0.2-2V_5
+Change Net Name : Old Net Name=Net*4_3 New Net Name=Net0.2-2V_3
+Change Net Name : Old Net Name=Net*5_1 New Net Name=Net0.2-5V_5
+Change Net Name : Old Net Name=Net*5_3 New Net Name=Net0.2-5V_3
+Change Net Name : Old Net Name=Net*6_1 New Net Name=Net0.2-3.3V_5
+Change Net Name : Old Net Name=Net*6_3 New Net Name=Net0.2-3.3V_3
