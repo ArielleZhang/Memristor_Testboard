@@ -1,0 +1,16 @@
+Change Component Designator: OldDesignator=1 NewDesignator=0.5-2V
+Change Component Designator: OldDesignator=2 NewDesignator=2-5V
+Change Component Designator: OldDesignator=3 NewDesignator=0.9-5V
+Change Component Designator: OldDesignator=4 NewDesignator=0.2-2V
+Change Component Designator: OldDesignator=5 NewDesignator=0.2-5V
+Change Component Designator: OldDesignator=6 NewDesignator=0.2-3.3V
+Change Component Designator: OldDesignator=JP1 NewDesignator=JP8
+Change Component Designator: OldDesignator=JP2 NewDesignator=JP1
+Change Component Designator: OldDesignator=JP3 NewDesignator=JP2
+Change Component Designator: OldDesignator=JP4 NewDesignator=JP3
+Change Component Designator: OldDesignator=JP5 NewDesignator=JP4
+Change Component Designator: OldDesignator=JP6 NewDesignator=JP5
+Change Component Designator: OldDesignator=JP7 NewDesignator=JP6
+Change Component Designator: OldDesignator=JP8 NewDesignator=JP7
+Change Component Designator: OldDesignator=S1 NewDesignator=S2
+Change Component Designator: OldDesignator=S2 NewDesignator=S1

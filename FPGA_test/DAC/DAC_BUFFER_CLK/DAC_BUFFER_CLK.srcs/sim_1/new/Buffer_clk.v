@@ -18,33 +18,47 @@
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
+//1 us = 0.0000001s
 
-//N = 10 if 10Mhz
-//N = 10 000 if 10kHz;
+//N = 10 - 1 if 10Mhz, period = 10us
+
+//the base clock is o.5 us, o.5us
+
+// input frequency in Hz
+
+// Period = 1/frequency * 1000000
+// N = period - 1
+
+//N = 10 000 - 1 if 10kHz period = 10 ms
+
+//inout frequency:
+//COUNTER WIDTH = 1/f * 100000000 - 1
 
 module Buffer_clk_test;
 
+wire [25:0] FREQUENCY;
 wire PINGPONG_CLK;
-wire [13:0] COUNTER;
+wire [16:0] COUNTER;
 reg CLK;
-wire [13:0]WIDTH;
-wire [13:0] HALF;
+wire [16:0] WIDTH;
+wire [16:0] HALF;
 
 
 Pingpong_buffer_clk ins1 (.PINGPONG_CLK(PINGPONG_CLK),
-.COUNTER(COUNTER),.CLK(CLK), .WIDTH(WIDTH),.COUNTER_WIDTH(14'd10), .HALF(HALF));
+.COUNTER(COUNTER),.CLK(CLK), .WIDTH(WIDTH),.FREQUENCY(17'd10000000), .HALF(HALF));
 
 //defparam ins1.COUNTER_WIDTH = 14'd10;
 
 
 initial
 begin
-CLK = 0;
+CLK = 1;
 
-#20
+#100
+
 $stop;
 
 end
 
-always #0.5 CLK = ~CLK; //period is 0.1us
+always #5 CLK = ~CLK; //period is 1us base clock
 endmodule

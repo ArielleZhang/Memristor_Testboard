@@ -1,0 +1,7 @@
+Added Pin To Net: NetName=12V Pin=C1-1
+Added Pin To Net: NetName=12V Pin=C2-1
+Added Pin To Net: NetName=POWER Pin=JP8-4
+Added Pin To Net: NetName=GND Pin=JP13-2
+Added Class: Name=TIA
+Added Member To Class: ClassName=12V_to_5V Member=Component C12 100nF RF
+Added Member To Class: ClassName=12V_to_5V Member=Component C13 10uF RF

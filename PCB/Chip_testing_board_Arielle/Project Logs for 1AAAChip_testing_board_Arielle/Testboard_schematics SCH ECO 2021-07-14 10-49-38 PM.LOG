@@ -1,0 +1,87 @@
+Remove Pin=FMC HPC1B-C10 From Net=TIA_CIN2
+Remove Pin=FMC HPC1B-C11 From Net=TIA_CIN0
+Remove Pin=FMC HPC1B-C14 From Net=TIA_CIN5
+Remove Pin=FMC HPC1B-C15 From Net=TIA_CIN3
+Remove Pin=FMC HPC1B-C18 From Net=TIA_CIN1
+Remove Pin=FMC HPC1B-C19 From Net=TIA_CIN4
+Remove Pin=FMC HPC1B-C22 From Net=TIA_CIN6
+Remove Pin=FMC HPC1B-D8 From Net=DAC_SYNC_IN1
+Remove Pin=FMC HPC1B-D9 From Net=DAC_DATAIN_IN1
+Remove Pin=FMC HPC1B-D11 From Net=DAC_RST_IN1
+Remove Pin=FMC HPC1B-D12 From Net=DAC_CLK_AZ_IN1
+Remove Pin=FMC HPC1B-D14 From Net=DAC_CLK_DAC_IN1
+Remove Pin=FMC HPC1C-E2 From Net=DAC_CLK_IN1
+Remove Pin=FMC HPC1C-E3 From Net=DAC_TBUFFER_IN1
+Remove Pin=FMC HPC1C-E6 From Net=DAC_SHIFTOUT1
+Remove Pin=FMC HPC1C-E7 From Net=DAC_TDAC_IN1
+Remove Pin=FMC HPC1C-F4 From Net=ADC_CLK
+Remove Pin=FMC HPC1C-F5 From Net=ADC_CLK_SAMPLE
+Remove Pin=FMC HPC1C-F7 From Net=ADC_DOUT10
+Remove Pin=FMC HPC1C-F8 From Net=ADC_DOUT9
+Remove Pin=FMC HPC1C-F10 From Net=ADC_DOUT8
+Remove Pin=FMC HPC1C-F11 From Net=ADC_DOUT7
+Remove Pin=FMC HPC1C-F13 From Net=ADC_DOUT6
+Remove Pin=FMC HPC1C-F14 From Net=ADC_DOUT5
+Remove Pin=FMC HPC1C-F16 From Net=ADC_DOUT4
+Remove Pin=FMC HPC1C-F17 From Net=ADC_DOUT3
+Remove Pin=FMC HPC1C-F19 From Net=ADC_DOUT2
+Remove Pin=FMC HPC1C-F20 From Net=ADC_DOUT1
+Remove Pin=JP1-1 From Net=ADC_VIN
+Remove Pin=JP2-1 From Net=TIA_VIN
+Remove Pin=JP3-1 From Net=TIA_VIP
+Remove Pin=JP4-1 From Net=TIA_VOUT
+Remove Pin=JP5-1 From Net=DAC_TDAC_OUT1
+Remove Pin=JP6-1 From Net=DAC_VREF1
+Remove Pin=JP7-1 From Net=DAC_TBUFFER_OUT1
+Remove Pin=S1-1 From Net=DAC_VREF1
+Remove Pin=S1-2 From Net=DAC_TBUFFER_OUT1
+Remove Pin=S1-15 From Net=ADC_DOUT1
+Remove Pin=S1-16 From Net=ADC_DOUT2
+Remove Pin=S1-17 From Net=ADC_DOUT3
+Remove Pin=S1-18 From Net=ADC_DOUT4
+Remove Pin=S1-19 From Net=ADC_DOUT5
+Remove Pin=S1-20 From Net=ADC_DOUT6
+Remove Pin=S1-21 From Net=ADC_DOUT7
+Remove Pin=S1-22 From Net=ADC_DOUT8
+Remove Pin=S1-23 From Net=ADC_DOUT9
+Remove Pin=S1-24 From Net=ADC_DOUT10
+Remove Pin=S1-26 From Net=ADC_CLK_SAMPLE
+Remove Pin=S1-27 From Net=ADC_CLK
+Remove Pin=S1-29 From Net=VOUT_0.2-2V
+Remove Pin=S1-35 From Net=VOUT_0.2-2V
+Remove Pin=S1-36 From Net=VOUT_0.2-2V
+Remove Pin=S1-37 From Net=VOUT_0.2-2V
+Remove Pin=S1-38 From Net=VOUT_0.5V-2V
+Remove Pin=S1-39 From Net=VOUT_0.2-2V
+Remove Pin=S1-40 From Net=ADC_VIN
+Remove Pin=S1-41 From Net=TIA_CIN2
+Remove Pin=S1-42 From Net=TIA_CIN0
+Remove Pin=S1-43 From Net=TIA_VIN
+Remove Pin=S1-44 From Net=TIA_CIN5
+Remove Pin=S1-45 From Net=TIA_VIP
+Remove Pin=S1-46 From Net=TIA_CIN3
+Remove Pin=S1-47 From Net=TIA_CIN1
+Remove Pin=S1-48 From Net=VOUT_0.2-2V
+Remove Pin=S1-49 From Net=VOUT_0.2V-5V
+Remove Pin=S1-50 From Net=TIA_CIN4
+Remove Pin=S1-56 From Net=VOUT_0.2V-5V
+Remove Pin=S1-57 From Net=VOUT_0.2V-5V
+Remove Pin=S1-59 From Net=VOUT_0.9V-5V
+Remove Pin=S1-60 From Net=VOUT_0.2V-5V
+Remove Pin=S1-63 From Net=TIA_VOUT
+Remove Pin=S1-64 From Net=TIA_CIN6
+Remove Pin=S1-65 From Net=VOUT_2V-5V
+Remove Pin=S1-67 From Net=DAC_SYNC_IN1
+Remove Pin=S1-68 From Net=DAC_DATAIN_IN1
+Remove Pin=S1-69 From Net=DAC_RST_IN1
+Remove Pin=S1-70 From Net=DAC_CLK_AZ_IN1
+Remove Pin=S1-71 From Net=DAC_CLK_DAC_IN1
+Remove Pin=S1-76 From Net=DAC_CLK_IN1
+Remove Pin=S1-77 From Net=DAC_TDAC_OUT1
+Remove Pin=S1-78 From Net=DAC_TDAC_IN1
+Remove Pin=S1-79 From Net=DAC_TBUFFER_IN1
+Remove Pin=S1-80 From Net=DAC_SHIFTOUT1
+Remove Pin=S1-81 From Net=VOUT_0.2-2V
+Remove Pin=S1-82 From Net=VOUT_0.2-2V
+Remove Pin=S1-83 From Net=VOUT_0.2V-3.3V
+Remove Pin=S1-84 From Net=VOUT_0.2V-3.3V

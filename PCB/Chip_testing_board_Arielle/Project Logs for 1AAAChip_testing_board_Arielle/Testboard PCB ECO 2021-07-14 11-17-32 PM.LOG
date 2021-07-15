@@ -1,0 +1,16 @@
+Added Component: Designator=7(LT3022)
+Added Pin To Net: NetName=Net7_3 Pin=7-3
+Added Pin To Net: NetName=Net7_5 Pin=7-5
+Added Pin To Net: NetName=GND Pin=7-6
+Added Pin To Net: NetName=GND Pin=7-7
+Added Pin To Net: NetName=GND Pin=7-7
+Added Pin To Net: NetName=12-5V_regulator Pin=7-9
+Added Pin To Net: NetName=GND Pin=7-10
+Added Pin To Net: NetName=GND Pin=7-11
+Added Pin To Net: NetName=12-5V_regulator Pin=7-12
+Added Pin To Net: NetName=12-5V_regulator Pin=7-13
+Added Pin To Net: NetName=12-5V_regulator Pin=7-14
+Added Pin To Net: NetName=12V Pin=C1-1
+Added Pin To Net: NetName=12V Pin=C2-1
+Added Pin To Net: NetName=POWER Pin=JP8-4
+Added Pin To Net: NetName=GND Pin=JP13-2

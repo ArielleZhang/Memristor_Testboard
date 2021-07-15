@@ -1,3 +1,3 @@
 Vivado Simulator 2019.2
 Time resolution is 1 ps
-$stop called at time : 20 ns : File "D:/Program-Files/Vivado/Vivado/vivado_prj/DAC_BUFFER_CLK/DAC_BUFFER_CLK.srcs/sim_1/new/Buffer_clk.v" Line 45
+$stop called at time : 20 ns : File "E:/Closed_Loop_Chip/FPGA_test/DAC/DAC_BUFFER_CLK/DAC_BUFFER_CLK.srcs/sim_1/new/Buffer_clk.v" Line 58

@@ -81,7 +81,7 @@ output wire CLK_DAC
     
     
     
-    always @(posedge CLK or RST) begin
+    always @(posedge CLK) begin
     if (BEGIN == 1) begin
     if(counter == 4'd11)begin
     counter <= 4'd0;
@@ -144,7 +144,7 @@ output wire data_out
     // net_in <= data_in;
    // end
     
-    always @(posedge clk or rst)begin
+    always @(posedge clk)begin
     if(rst)
     net_out <= 1'b0;
     if(sel == 1)
