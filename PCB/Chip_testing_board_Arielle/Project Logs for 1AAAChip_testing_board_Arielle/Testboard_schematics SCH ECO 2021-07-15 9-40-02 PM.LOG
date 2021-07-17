@@ -1,0 +1,34 @@
+Change Component Comment: Designator=C7 Old Comment=1uF New Comment=10uF
+Change Component Comment: Designator=C14 Old Comment=100pF New Comment=10uF
+Change Component Designator: OldDesignator=*4 NewDesignator=*4
+Change Component Designator: OldDesignator=1 NewDesignator=0.5-2V
+Change Component Designator: OldDesignator=2 NewDesignator=2-5V
+Change Component Designator: OldDesignator=3 NewDesignator=0.9-5V
+Change Component Designator: OldDesignator=4 NewDesignator=0.2-2V
+Change Component Designator: OldDesignator=6 NewDesignator=0.2-3.3V
+Change Component Designator: OldDesignator=C36 NewDesignator=C3
+Change Component Designator: OldDesignator=C37 NewDesignator=C4
+Change Component Designator: OldDesignator=C38 NewDesignator=C5
+Change Component Designator: OldDesignator=C39 NewDesignator=C6
+Change Component Designator: OldDesignator=C41 NewDesignator=C8
+Change Component Designator: OldDesignator=C42 NewDesignator=C9
+Change Component Designator: OldDesignator=C43 NewDesignator=C10
+Change Component Designator: OldDesignator=C44 NewDesignator=C11
+Change Component Designator: OldDesignator=C45 NewDesignator=C12
+Change Component Designator: OldDesignator=C46 NewDesignator=C13
+Change Component Designator: OldDesignator=JP1 NewDesignator=JP8
+Change Component Designator: OldDesignator=JP2 NewDesignator=JP1
+Change Component Designator: OldDesignator=JP3 NewDesignator=JP2
+Change Component Designator: OldDesignator=JP4 NewDesignator=JP3
+Change Component Designator: OldDesignator=JP5 NewDesignator=JP4
+Change Component Designator: OldDesignator=JP6 NewDesignator=JP5
+Change Component Designator: OldDesignator=JP7 NewDesignator=JP6
+Change Component Designator: OldDesignator=JP8 NewDesignator=JP7
+Change Component Designator: OldDesignator=JP12 NewDesignator=JP12
+Change Component Designator: OldDesignator=R7 NewDesignator=R7
+Change Component Designator: OldDesignator=R8 NewDesignator=R8
+Change Component Designator: OldDesignator=S1 NewDesignator=S2
+Change Component Designator: OldDesignator=S2 NewDesignator=S1
+Add Pin To Net: Pin=S1-62 Old Net=1-3V New Net=12-5V_regulator
+Change Pin Designator/Name:  Old Designator=C7-1 Old Name=1 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=C7-2 Old Name=2 New Designator =1 New Name=1

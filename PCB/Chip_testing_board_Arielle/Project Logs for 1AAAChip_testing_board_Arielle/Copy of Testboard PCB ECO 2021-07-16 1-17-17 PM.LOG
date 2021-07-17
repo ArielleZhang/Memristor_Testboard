@@ -1,0 +1,57 @@
+Change Component Designator: OldDesignator=*4_VOUT_0.2-2V1 NewDesignator=*4_VOUT_0.2-2V7
+Change Component Designator: OldDesignator=*4_VOUT_0.2-2V2 NewDesignator=*4_VOUT_0.2-2V6
+Change Component Designator: OldDesignator=*4_VOUT_0.2-2V3 NewDesignator=*4_VOUT_0.2-2V5
+Change Component Designator: OldDesignator=*4_VOUT_0.2-2V5 NewDesignator=*4_VOUT_0.2-2V3
+Change Component Designator: OldDesignator=*4_VOUT_0.2-2V6 NewDesignator=*4_VOUT_0.2-2V2
+Change Component Designator: OldDesignator=*4_VOUT_0.2-2V7 NewDesignator=*4_VOUT_0.2-2V1
+Change Component Designator: OldDesignator=0.2-2V_Regulator_VOUT_0.2-2V1 NewDesignator=0.2-2V_Regulator_VOUT_0.2-2V7
+Change Component Designator: OldDesignator=0.2-2V_Regulator_VOUT_0.2-2V2 NewDesignator=0.2-2V_Regulator_VOUT_0.2-2V6
+Change Component Designator: OldDesignator=0.2-2V_Regulator_VOUT_0.2-2V3 NewDesignator=0.2-2V_Regulator_VOUT_0.2-2V5
+Change Component Designator: OldDesignator=0.2-2V_Regulator_VOUT_0.2-2V5 NewDesignator=0.2-2V_Regulator_VOUT_0.2-2V3
+Change Component Designator: OldDesignator=0.2-2V_Regulator_VOUT_0.2-2V6 NewDesignator=0.2-2V_Regulator_VOUT_0.2-2V2
+Change Component Designator: OldDesignator=0.2-2V_Regulator_VOUT_0.2-2V7 NewDesignator=0.2-2V_Regulator_VOUT_0.2-2V1
+Change Component Designator: OldDesignator=C39_VOUT_0.2-2V1 NewDesignator=C39_VOUT_0.2-2V7
+Change Component Designator: OldDesignator=C39_VOUT_0.2-2V2 NewDesignator=C39_VOUT_0.2-2V6
+Change Component Designator: OldDesignator=C39_VOUT_0.2-2V3 NewDesignator=C39_VOUT_0.2-2V5
+Change Component Designator: OldDesignator=C39_VOUT_0.2-2V5 NewDesignator=C39_VOUT_0.2-2V3
+Change Component Designator: OldDesignator=C39_VOUT_0.2-2V6 NewDesignator=C39_VOUT_0.2-2V2
+Change Component Designator: OldDesignator=C39_VOUT_0.2-2V7 NewDesignator=C39_VOUT_0.2-2V1
+Change Component Designator: OldDesignator=JP12_VOUT_0.2-2V1 NewDesignator=JP12_VOUT_0.2-2V7
+Change Component Designator: OldDesignator=JP12_VOUT_0.2-2V2 NewDesignator=JP12_VOUT_0.2-2V6
+Change Component Designator: OldDesignator=JP12_VOUT_0.2-2V3 NewDesignator=JP12_VOUT_0.2-2V5
+Change Component Designator: OldDesignator=JP12_VOUT_0.2-2V5 NewDesignator=JP12_VOUT_0.2-2V3
+Change Component Designator: OldDesignator=JP12_VOUT_0.2-2V6 NewDesignator=JP12_VOUT_0.2-2V2
+Change Component Designator: OldDesignator=JP12_VOUT_0.2-2V7 NewDesignator=JP12_VOUT_0.2-2V1
+Change Component Designator: OldDesignator=R7_VOUT_0.2-2V1 NewDesignator=R7_VOUT_0.2-2V7
+Change Component Designator: OldDesignator=R7_VOUT_0.2-2V2 NewDesignator=R7_VOUT_0.2-2V6
+Change Component Designator: OldDesignator=R7_VOUT_0.2-2V3 NewDesignator=R7_VOUT_0.2-2V5
+Change Component Designator: OldDesignator=R7_VOUT_0.2-2V5 NewDesignator=R7_VOUT_0.2-2V3
+Change Component Designator: OldDesignator=R7_VOUT_0.2-2V6 NewDesignator=R7_VOUT_0.2-2V2
+Change Component Designator: OldDesignator=R7_VOUT_0.2-2V7 NewDesignator=R7_VOUT_0.2-2V1
+Change Component Designator: OldDesignator=R8_VOUT_0.2-2V1 NewDesignator=R8_VOUT_0.2-2V7
+Change Component Designator: OldDesignator=R8_VOUT_0.2-2V2 NewDesignator=R8_VOUT_0.2-2V6
+Change Component Designator: OldDesignator=R8_VOUT_0.2-2V3 NewDesignator=R8_VOUT_0.2-2V5
+Change Component Designator: OldDesignator=R8_VOUT_0.2-2V5 NewDesignator=R8_VOUT_0.2-2V3
+Change Component Designator: OldDesignator=R8_VOUT_0.2-2V6 NewDesignator=R8_VOUT_0.2-2V2
+Change Component Designator: OldDesignator=R8_VOUT_0.2-2V7 NewDesignator=R8_VOUT_0.2-2V1
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=GND Pin=JP1-4
+Change Net Name : Old Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V1_3 New Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V7_3
+Change Net Name : Old Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V1_5 New Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V7_5
+Change Net Name : Old Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V2_3 New Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V6_3
+Change Net Name : Old Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V2_5 New Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V6_5
+Change Net Name : Old Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V3_3 New Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V5_3
+Change Net Name : Old Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V3_5 New Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V5_5
+Change Net Name : Old Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V5_3 New Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V3_3
+Change Net Name : Old Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V5_5 New Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V3_5
+Change Net Name : Old Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V6_3 New Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V2_3
+Change Net Name : Old Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V6_5 New Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V2_5
+Change Net Name : Old Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V7_3 New Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V1_3
+Change Net Name : Old Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V7_5 New Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V1_5
+Change Net Name : Old Net Name=NetR7_VOUT_0.2-2V1_1 New Net Name=NetR7_VOUT_0.2-2V7_1
+Change Net Name : Old Net Name=NetR7_VOUT_0.2-2V2_1 New Net Name=NetR7_VOUT_0.2-2V6_1
+Change Net Name : Old Net Name=NetR7_VOUT_0.2-2V3_1 New Net Name=NetR7_VOUT_0.2-2V5_1
+Change Net Name : Old Net Name=NetR7_VOUT_0.2-2V5_1 New Net Name=NetR7_VOUT_0.2-2V3_1
+Change Net Name : Old Net Name=NetR7_VOUT_0.2-2V6_1 New Net Name=NetR7_VOUT_0.2-2V2_1
+Change Net Name : Old Net Name=NetR7_VOUT_0.2-2V7_1 New Net Name=NetR7_VOUT_0.2-2V1_1

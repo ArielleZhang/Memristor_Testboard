@@ -1,0 +1,24 @@
+Change Component Designator: OldDesignator=4_VOUT_0.2-2V1 NewDesignator=4_VOUT_0.2-2V7_VOUT_0.2-2V1
+Change Component Designator: OldDesignator=4_VOUT_0.2-2V2 NewDesignator=4_VOUT_0.2-2V7_VOUT_0.2-2V2
+Change Component Designator: OldDesignator=4_VOUT_0.2-2V3 NewDesignator=4_VOUT_0.2-2V7_VOUT_0.2-2V3
+Change Component Designator: OldDesignator=4_VOUT_0.2-2V4 NewDesignator=4_VOUT_0.2-2V7_VOUT_0.2-2V4
+Change Component Designator: OldDesignator=4_VOUT_0.2-2V5 NewDesignator=4_VOUT_0.2-2V7_VOUT_0.2-2V5
+Change Component Designator: OldDesignator=4_VOUT_0.2-2V6 NewDesignator=4_VOUT_0.2-2V7_VOUT_0.2-2V6
+Change Component Designator: OldDesignator=4_VOUT_0.2-2V7 NewDesignator=4_VOUT_0.2-2V7_VOUT_0.2-2V7
+Added Pin To Net: NetName=12V Pin=C1-1
+Added Pin To Net: NetName=12V Pin=C2-1
+Added Pin To Net: NetName=POWER Pin=JP1-4
+Change Net Name : Old Net Name=Net4_VOUT_0.2-2V1_3 New Net Name=Net4_VOUT_0.2-2V7_VOUT_0.2-2V1_3
+Change Net Name : Old Net Name=Net4_VOUT_0.2-2V1_5 New Net Name=Net4_VOUT_0.2-2V7_VOUT_0.2-2V1_5
+Change Net Name : Old Net Name=Net4_VOUT_0.2-2V2_3 New Net Name=Net4_VOUT_0.2-2V7_VOUT_0.2-2V2_3
+Change Net Name : Old Net Name=Net4_VOUT_0.2-2V2_5 New Net Name=Net4_VOUT_0.2-2V7_VOUT_0.2-2V2_5
+Change Net Name : Old Net Name=Net4_VOUT_0.2-2V3_3 New Net Name=Net4_VOUT_0.2-2V7_VOUT_0.2-2V3_3
+Change Net Name : Old Net Name=Net4_VOUT_0.2-2V3_5 New Net Name=Net4_VOUT_0.2-2V7_VOUT_0.2-2V3_5
+Change Net Name : Old Net Name=Net4_VOUT_0.2-2V4_3 New Net Name=Net4_VOUT_0.2-2V7_VOUT_0.2-2V4_3
+Change Net Name : Old Net Name=Net4_VOUT_0.2-2V4_5 New Net Name=Net4_VOUT_0.2-2V7_VOUT_0.2-2V4_5
+Change Net Name : Old Net Name=Net4_VOUT_0.2-2V5_3 New Net Name=Net4_VOUT_0.2-2V7_VOUT_0.2-2V5_3
+Change Net Name : Old Net Name=Net4_VOUT_0.2-2V5_5 New Net Name=Net4_VOUT_0.2-2V7_VOUT_0.2-2V5_5
+Change Net Name : Old Net Name=Net4_VOUT_0.2-2V6_3 New Net Name=Net4_VOUT_0.2-2V7_VOUT_0.2-2V6_3
+Change Net Name : Old Net Name=Net4_VOUT_0.2-2V6_5 New Net Name=Net4_VOUT_0.2-2V7_VOUT_0.2-2V6_5
+Change Net Name : Old Net Name=Net4_VOUT_0.2-2V7_3 New Net Name=Net4_VOUT_0.2-2V7_VOUT_0.2-2V7_3
+Change Net Name : Old Net Name=Net4_VOUT_0.2-2V7_5 New Net Name=Net4_VOUT_0.2-2V7_VOUT_0.2-2V7_5

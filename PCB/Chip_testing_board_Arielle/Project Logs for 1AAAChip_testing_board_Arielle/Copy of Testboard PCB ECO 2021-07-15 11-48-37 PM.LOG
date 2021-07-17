@@ -1,0 +1,46 @@
+Change Component Designator: OldDesignator=1 NewDesignator=0.5-2V_Regulator
+Change Component Designator: OldDesignator=2 NewDesignator=2-5V_Regulator
+Change Component Designator: OldDesignator=3 NewDesignator=1-3V_Regulator
+Change Component Designator: OldDesignator=4_VOUT_0.2-2V7_VOUT_0.2-2V7_VOUT_0.2-2V1 NewDesignator=0.2-2V_Regulator_VOUT_0.2-2V1
+Change Component Designator: OldDesignator=4_VOUT_0.2-2V7_VOUT_0.2-2V7_VOUT_0.2-2V2 NewDesignator=0.2-2V_Regulator_VOUT_0.2-2V2
+Change Component Designator: OldDesignator=4_VOUT_0.2-2V7_VOUT_0.2-2V7_VOUT_0.2-2V3 NewDesignator=0.2-2V_Regulator_VOUT_0.2-2V3
+Change Component Designator: OldDesignator=4_VOUT_0.2-2V7_VOUT_0.2-2V7_VOUT_0.2-2V4 NewDesignator=0.2-2V_Regulator_VOUT_0.2-2V4
+Change Component Designator: OldDesignator=4_VOUT_0.2-2V7_VOUT_0.2-2V7_VOUT_0.2-2V5 NewDesignator=0.2-2V_Regulator_VOUT_0.2-2V5
+Change Component Designator: OldDesignator=4_VOUT_0.2-2V7_VOUT_0.2-2V7_VOUT_0.2-2V6 NewDesignator=0.2-2V_Regulator_VOUT_0.2-2V6
+Change Component Designator: OldDesignator=4_VOUT_0.2-2V7_VOUT_0.2-2V7_VOUT_0.2-2V7 NewDesignator=0.2-2V_Regulator_VOUT_0.2-2V7
+Change Component Designator: OldDesignator=5 NewDesignator=0.2-3.3V_Regulator
+Change Component Designator: OldDesignator=S1 NewDesignator=Switch
+Added Pin To Net: NetName=12V Pin=C1-1
+Added Pin To Net: NetName=12V Pin=C2-1
+Added Pin To Net: NetName=POWER Pin=JP1-4
+Change Net Name : Old Net Name=Net1_3 New Net Name=Net0.5-2V_Regulator_3
+Change Net Name : Old Net Name=Net1_5 New Net Name=Net0.5-2V_Regulator_5
+Change Net Name : Old Net Name=Net2_3 New Net Name=Net2-5V_Regulator_3
+Change Net Name : Old Net Name=Net2_5 New Net Name=Net2-5V_Regulator_5
+Change Net Name : Old Net Name=Net3_3 New Net Name=Net1-3V_Regulator_3
+Change Net Name : Old Net Name=Net3_5 New Net Name=Net1-3V_Regulator_5
+Change Net Name : Old Net Name=Net4_VOUT_0.2-2V7_VOUT_0.2-2V7_VOUT_0.2-2V1_3 New Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V1_3
+Change Net Name : Old Net Name=Net4_VOUT_0.2-2V7_VOUT_0.2-2V7_VOUT_0.2-2V1_5 New Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V1_5
+Change Net Name : Old Net Name=Net4_VOUT_0.2-2V7_VOUT_0.2-2V7_VOUT_0.2-2V2_3 New Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V2_3
+Change Net Name : Old Net Name=Net4_VOUT_0.2-2V7_VOUT_0.2-2V7_VOUT_0.2-2V2_5 New Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V2_5
+Change Net Name : Old Net Name=Net4_VOUT_0.2-2V7_VOUT_0.2-2V7_VOUT_0.2-2V3_3 New Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V3_3
+Change Net Name : Old Net Name=Net4_VOUT_0.2-2V7_VOUT_0.2-2V7_VOUT_0.2-2V3_5 New Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V3_5
+Change Net Name : Old Net Name=Net4_VOUT_0.2-2V7_VOUT_0.2-2V7_VOUT_0.2-2V4_3 New Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V4_3
+Change Net Name : Old Net Name=Net4_VOUT_0.2-2V7_VOUT_0.2-2V7_VOUT_0.2-2V4_5 New Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V4_5
+Change Net Name : Old Net Name=Net4_VOUT_0.2-2V7_VOUT_0.2-2V7_VOUT_0.2-2V5_3 New Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V5_3
+Change Net Name : Old Net Name=Net4_VOUT_0.2-2V7_VOUT_0.2-2V7_VOUT_0.2-2V5_5 New Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V5_5
+Change Net Name : Old Net Name=Net4_VOUT_0.2-2V7_VOUT_0.2-2V7_VOUT_0.2-2V6_3 New Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V6_3
+Change Net Name : Old Net Name=Net4_VOUT_0.2-2V7_VOUT_0.2-2V7_VOUT_0.2-2V6_5 New Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V6_5
+Change Net Name : Old Net Name=Net4_VOUT_0.2-2V7_VOUT_0.2-2V7_VOUT_0.2-2V7_3 New Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V7_3
+Change Net Name : Old Net Name=Net4_VOUT_0.2-2V7_VOUT_0.2-2V7_VOUT_0.2-2V7_5 New Net Name=Net0.2-2V_Regulator_VOUT_0.2-2V7_5
+Change Net Name : Old Net Name=Net5_3 New Net Name=Net0.2-3.3V_Regulator_3
+Change Net Name : Old Net Name=Net5_5 New Net Name=Net0.2-3.3V_Regulator_5
+Added Member To Class: ClassName=12V_to_5V Member=Component C41 10uF RF
+Added Member To Class: ClassName=12V_to_5V Member=Component C42 100u /10V
+Added Member To Class: ClassName=12V_to_5V Member=Component C43 10nF RF
+Added Member To Class: ClassName=12V_to_5V Member=Component C44 100nF RF
+Added Member To Class: ClassName=12V_to_5V Member=Component C45 10uF RF
+Added Member To Class: ClassName=12V_to_5V Member=Component D1 Green
+Added Member To Class: ClassName=12V_to_5V Member=Component R11 2k
+Added Member To Class: ClassName=12V_to_5V Member=Component U1 Part Number: LM1085IS-5.0/NOPB
+Added Room: Name=12V_to_5V
