@@ -1,0 +1,34 @@
+Change Component Designator: OldDesignator=*5_VOUT_0.2V-3.3V1 NewDesignator=*5_VOUT_0.2V-3.3V2
+Change Component Designator: OldDesignator=*5_VOUT_0.2V-3.3V2 NewDesignator=*5_VOUT_0.2V-3.3V1
+Change Component Designator: OldDesignator=5_VOUT_0.2V-3.3V1 NewDesignator=5_VOUT_0.2V-3.3V2
+Change Component Designator: OldDesignator=C43_VOUT_0.2V-3.3V1 NewDesignator=C43_VOUT_0.2V-3.3V2
+Change Component Designator: OldDesignator=C43_VOUT_0.2V-3.3V2 NewDesignator=C43_VOUT_0.2V-3.3V1
+Change Component Designator: OldDesignator=JP13_VOUT_0.2V-3.3V2 NewDesignator=JP13_VOUT_0.2V-3.3V1
+Change Component Designator: OldDesignator=NBB_0.2-2V NewDesignator=JP12_VOUT_0.2-2V5
+Change Component Designator: OldDesignator=NBT_0.2-2V NewDesignator=4_VOUT_0.2-2V4
+Change Component Designator: OldDesignator=PBB_0.2-2V NewDesignator=4_VOUT_0.2-2V3
+Change Component Designator: OldDesignator=PBT_0.2-2V NewDesignator=4_VOUT_0.2-2V7
+Change Component Designator: OldDesignator=R9_VOUT_0.2V-3.3V1 NewDesignator=R9_VOUT_0.2V-3.3V2
+Change Component Designator: OldDesignator=R9_VOUT_0.2V-3.3V2 NewDesignator=R9_VOUT_0.2V-3.3V1
+Change Component Designator: OldDesignator=R10_VOUT_0.2V-3.3V1 NewDesignator=R10_VOUT_0.2V-3.3V2
+Change Component Designator: OldDesignator=R10_VOUT_0.2V-3.3V2 NewDesignator=R10_VOUT_0.2V-3.3V1
+Change Component Designator: OldDesignator=VB3_1 NewDesignator=4_VOUT_0.2-2V1
+Change Component Designator: OldDesignator=VCM1_0.2V-3.3V NewDesignator=5_VOUT_0.2V-3.3V1
+Change Component Designator: OldDesignator=VCM_0.2-2V NewDesignator=4_VOUT_0.2-2V6
+Change Component Designator: OldDesignator=VDD3 NewDesignator=2
+Change Component Designator: OldDesignator=VDD NewDesignator=1
+Change Component Designator: OldDesignator=VDDESD NewDesignator=3
+Change Component Designator: OldDesignator=VREF1_0.2-3.3V NewDesignator=JP13_VOUT_0.2V-3.3V2
+Added Pin To Net: NetName=Net5_VOUT_0.2V-3.3V2_3 Pin=5_VOUT_0.2V-3.3V1-4
+Added Pin To Net: NetName=Net5_VOUT_0.2V-3.3V1_3 Pin=5_VOUT_0.2V-3.3V2-4
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=GND Pin=JP1-4
+Change Net Name : Old Net Name=DAC_VREF1 New Net Name=DAC_VDAC1
+Change Net Name : Old Net Name=Net5_VOUT_0.2V-3.3V1_3 New Net Name=Net5_VOUT_0.2V-3.3V2_3
+Change Net Name : Old Net Name=Net5_VOUT_0.2V-3.3V1_5 New Net Name=Net5_VOUT_0.2V-3.3V2_5
+Change Net Name : Old Net Name=Net5_VOUT_0.2V-3.3V2_3 New Net Name=Net5_VOUT_0.2V-3.3V1_3
+Change Net Name : Old Net Name=Net5_VOUT_0.2V-3.3V2_5 New Net Name=Net5_VOUT_0.2V-3.3V1_5
+Change Net Name : Old Net Name=NetR9_VOUT_0.2V-3.3V1_1 New Net Name=NetR9_VOUT_0.2V-3.3V2_1
+Change Net Name : Old Net Name=NetR9_VOUT_0.2V-3.3V2_1 New Net Name=NetR9_VOUT_0.2V-3.3V1_1
+Added Class: Name=VOUT_0.2-3.3V

@@ -311,6 +311,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HQQSGDUV
 
+[Document17]
+DocumentPath=Copy of Copy of Testboard.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QMWRJIJC
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for 1AAAChip_testing_board_Arielle\Design Rule Check - Testboard.html
 DItemRevisionGUID=
