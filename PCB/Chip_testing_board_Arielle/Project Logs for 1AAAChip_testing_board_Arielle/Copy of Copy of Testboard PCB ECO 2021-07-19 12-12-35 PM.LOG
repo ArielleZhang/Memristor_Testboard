@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=GND Pin=JP1-4
+Added Member To Class: ClassName=DAC Member=Wire DAC_SHIFTOUT1
