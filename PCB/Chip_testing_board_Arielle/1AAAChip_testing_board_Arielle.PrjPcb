@@ -312,7 +312,7 @@ GenerateClassCluster=0
 DocumentUniqueId=HQQSGDUV
 
 [Document17]
-DocumentPath=Copy of Copy of Testboard.PcbDoc
+DocumentPath=6_layers_Testboard.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
