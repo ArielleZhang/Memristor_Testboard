@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=DAC_CLK_IN1 Pin=FMC HPC1-G36
+Removed Pin From Net: NetName=DAC_SHIFTOUT1 Pin=FMC HPC1-G37
+Removed Pin From Net: NetName=DAC_TBUFFER_IN1 Pin=FMC HPC1-H35
+Removed Pin From Net: NetName=DAC_TDAC_IN1 Pin=FMC HPC1-H38
+Added Pin To Net: NetName=DAC_SHIFTOUT1 Pin=FMC HPC1-G36
+Added Pin To Net: NetName=DAC_CLK_IN1 Pin=FMC HPC1-G37
+Added Pin To Net: NetName=DAC_TDAC_IN1 Pin=FMC HPC1-H35
+Added Pin To Net: NetName=DAC_TBUFFER_IN1 Pin=FMC HPC1-H38

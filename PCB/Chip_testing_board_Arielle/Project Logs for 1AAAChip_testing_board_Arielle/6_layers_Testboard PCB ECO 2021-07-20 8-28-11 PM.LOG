@@ -1,0 +1,10 @@
+Added Pin To Net: NetName=12V Pin=C1-1
+Added Pin To Net: NetName=12V Pin=C2-1
+Added Pin To Net: NetName=POWER Pin=JP1-4
+Added Pin To Net: NetName=GND Pin=JP7-3
+Added Pin To Net: NetName=NetFMC HPC1_K34 Pin=FMC HPC1-K34
+Added Pin To Net: NetName=NetFMC HPC1_K34 Pin=FMC HPC1-K35
+Added Pin To Net: NetName=NetFMC HPC1_K34 Pin=FMC HPC1-K37
+Added Pin To Net: NetName=NetFMC HPC1_K34 Pin=FMC HPC1-K38
+Added Pin To Net: NetName=NetFMC HPC1_K34 Pin=FMC HPC1-K40
+Added Net: Name=NetFMC HPC1_K34

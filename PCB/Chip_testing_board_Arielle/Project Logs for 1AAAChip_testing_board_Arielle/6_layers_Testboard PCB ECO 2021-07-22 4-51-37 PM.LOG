@@ -1,0 +1,32 @@
+Removed Pin From Net: NetName=DAC_CLK_IN1 Pin=FMC HPC1-G21
+Removed Pin From Net: NetName=DAC_SHIFTOUT1 Pin=FMC HPC1-G25
+Removed Pin From Net: NetName=ADC_DOUT10 Pin=FMC HPC1-G27
+Removed Pin From Net: NetName=ADC_DOUT9 Pin=FMC HPC1-G28
+Removed Pin From Net: NetName=ADC_DOUT7 Pin=FMC HPC1-G30
+Removed Pin From Net: NetName=ADC_DOUT6 Pin=FMC HPC1-G31
+Removed Pin From Net: NetName=ADC_DOUT4 Pin=FMC HPC1-G33
+Removed Pin From Net: NetName=ADC_DOUT3 Pin=FMC HPC1-G34
+Removed Pin From Net: NetName=ADC_DOUT2 Pin=FMC HPC1-G36
+Removed Pin From Net: NetName=ADC_DOUT1 Pin=FMC HPC1-G37
+Removed Pin From Net: NetName=DAC_TBUFFER_IN1 Pin=FMC HPC1-H22
+Removed Pin From Net: NetName=DAC_TDAC_IN1 Pin=FMC HPC1-H26
+Removed Pin From Net: NetName=ADC_DOUT8 Pin=FMC HPC1-H29
+Removed Pin From Net: NetName=ADC_DOUT5 Pin=FMC HPC1-H32
+Change component parameters: Designator = "JP1" ("JP1"); Footprint = "HDR1X4"; UniqueID = "\NPTPAFCO" ("\NPTPAFCO")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=ADC_DOUT10 Pin=FMC HPC1-G25
+Added Pin To Net: NetName=ADC_DOUT8 Pin=FMC HPC1-G27
+Added Pin To Net: NetName=ADC_DOUT7 Pin=FMC HPC1-G28
+Added Pin To Net: NetName=ADC_DOUT5 Pin=FMC HPC1-G30
+Added Pin To Net: NetName=ADC_DOUT4 Pin=FMC HPC1-G31
+Added Pin To Net: NetName=ADC_DOUT2 Pin=FMC HPC1-G33
+Added Pin To Net: NetName=ADC_DOUT1 Pin=FMC HPC1-G34
+Added Pin To Net: NetName=DAC_CLK_IN1 Pin=FMC HPC1-G36
+Added Pin To Net: NetName=DAC_SHIFTOUT1 Pin=FMC HPC1-G37
+Added Pin To Net: NetName=ADC_DOUT9 Pin=FMC HPC1-H26
+Added Pin To Net: NetName=ADC_DOUT6 Pin=FMC HPC1-H29
+Added Pin To Net: NetName=ADC_DOUT3 Pin=FMC HPC1-H32
+Added Pin To Net: NetName=DAC_TBUFFER_IN1 Pin=FMC HPC1-H35
+Added Pin To Net: NetName=DAC_TDAC_IN1 Pin=FMC HPC1-H38

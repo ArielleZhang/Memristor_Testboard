@@ -1,0 +1,70 @@
+Protel Design System Design Rule Check
+PCB File : E:\Memristor_testboard\PCB\Chip_testing_board_Arielle\6_layers_Testboard.PcbDoc
+Date     : 2021-07-22
+Time     : 6:17:29 PM
+
+Processing Rule : Clearance Constraint (Gap=6mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=3mil) (Max=100mil) (Preferred=7mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=4mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=4mil) (Max=250mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=11mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=3mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=3mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=3mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=10mil) (InNetClass('ADC'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=10mil) (InNetClass('TIA'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=10mil) (InNetClass('DAC'))
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+Waived Violations Of Rule : Board Clearance Constraint (Gap=0mil) (All)
+   Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 10mil) Between Board Edge And Text "Silk to solder mask clearance, changed from 10 mil to 3 mil.
+Minimum solder mask silver, changed from 10 to 3 mil.
+Silk to silk clearance, changed from 10 mil to 3 mil.
+" (-31750mil,-30385mil) on Inner Layer 1 Waived by Arielle Zhang at 2021-07-20 7:48:21 PM
+Waived Violations :1
+
+
+Violations Detected : 0
+Waived Violations : 1
+Time Elapsed        : 00:00:02

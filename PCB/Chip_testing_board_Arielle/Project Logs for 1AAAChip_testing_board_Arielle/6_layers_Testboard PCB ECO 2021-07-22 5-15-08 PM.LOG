@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=ADC_CLK_SAMPLE Pin=FMC HPC1-G24
+Removed Pin From Net: NetName=ADC_CLK Pin=FMC HPC1-H23
+Added Pin To Net: NetName=ADC_CLK Pin=FMC HPC1-G24
+Added Pin To Net: NetName=ADC_CLK_SAMPLE Pin=FMC HPC1-H23

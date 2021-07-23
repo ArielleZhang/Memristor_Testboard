@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=12V Pin=C1-2
+Removed Pin From Net: NetName=12V Pin=C2-2
+Change Component Designator: OldDesignator=NBB_0.2-2V NewDesignator=JP12_VOUT_0.2-2V5
+Added Pin To Net: NetName=12V Pin=C1-1
+Added Pin To Net: NetName=12V Pin=C2-1
+Added Pin To Net: NetName=POWER Pin=JP1-4
+Added Pin To Net: NetName=GND Pin=JP7-3

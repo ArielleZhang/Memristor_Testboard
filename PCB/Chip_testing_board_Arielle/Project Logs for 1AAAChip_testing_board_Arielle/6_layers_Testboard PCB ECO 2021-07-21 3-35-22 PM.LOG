@@ -1,0 +1,97 @@
+Added Pin To Net: NetName=12V Pin=C1-1
+Added Pin To Net: NetName=12V Pin=C2-1
+Added Pin To Net: NetName=POWER Pin=JP1-4
+Added Pin To Net: NetName=NetLabel73 Pin=FMC HPC1-A39
+Added Net: Name=NetLabel73
+Added Pin To Net: NetName=NetLabel75 Pin=FMC HPC1-A38
+Added Net: Name=NetLabel75
+Added Pin To Net: NetName=NetLabel76 Pin=FMC HPC1-A35
+Added Net: Name=NetLabel76
+Added Pin To Net: NetName=NetLabel77 Pin=FMC HPC1-A34
+Added Net: Name=NetLabel77
+Added Pin To Net: NetName=NetLabel78 Pin=FMC HPC1-B40
+Added Net: Name=NetLabel78
+Added Pin To Net: NetName=NetLabel79 Pin=FMC HPC1-B37
+Added Net: Name=NetLabel79
+Added Pin To Net: NetName=NetLabel80 Pin=FMC HPC1-B36
+Added Net: Name=NetLabel80
+Added Pin To Net: NetName=NetLabel81 Pin=FMC HPC1-B33
+Added Net: Name=NetLabel81
+Added Pin To Net: NetName=NetLabel82 Pin=FMC HPC1-C34
+Added Net: Name=NetLabel82
+Added Pin To Net: NetName=NetLabel83 Pin=FMC HPC1-C35
+Added Net: Name=NetLabel83
+Added Pin To Net: NetName=NetLabel84 Pin=FMC HPC1-C37
+Added Net: Name=NetLabel84
+Added Pin To Net: NetName=NetLabel85 Pin=FMC HPC1-C39
+Added Net: Name=NetLabel85
+Added Pin To Net: NetName=NetLabel86 Pin=FMC HPC1-D40
+Added Net: Name=NetLabel86
+Added Pin To Net: NetName=NetLabel87 Pin=FMC HPC1-D38
+Added Net: Name=NetLabel87
+Added Pin To Net: NetName=NetLabel88 Pin=FMC HPC1-D36
+Added Net: Name=NetLabel88
+Added Pin To Net: NetName=NetLabel89 Pin=FMC HPC1-D35
+Added Net: Name=NetLabel89
+Added Pin To Net: NetName=NetLabel90 Pin=FMC HPC1-D34
+Added Net: Name=NetLabel90
+Added Pin To Net: NetName=NetLabel91 Pin=FMC HPC1-E39
+Added Net: Name=NetLabel91
+Added Pin To Net: NetName=NetLabel92 Pin=FMC HPC1-E37
+Added Net: Name=NetLabel92
+Added Pin To Net: NetName=NetLabel93 Pin=FMC HPC1-E36
+Added Net: Name=NetLabel93
+Added Pin To Net: NetName=NetLabel94 Pin=FMC HPC1-E34
+Added Net: Name=NetLabel94
+Added Pin To Net: NetName=NetLabel95 Pin=FMC HPC1-E33
+Added Net: Name=NetLabel95
+Added Pin To Net: NetName=NetLabel96 Pin=FMC HPC1-F34
+Added Net: Name=NetLabel96
+Added Pin To Net: NetName=NetLabel97 Pin=FMC HPC1-F35
+Added Net: Name=NetLabel97
+Added Pin To Net: NetName=NetLabel98 Pin=FMC HPC1-F37
+Added Net: Name=NetLabel98
+Added Pin To Net: NetName=NetLabel99 Pin=FMC HPC1-F38
+Added Net: Name=NetLabel99
+Added Pin To Net: NetName=NetLabel100 Pin=FMC HPC1-F40
+Added Net: Name=NetLabel100
+Added Pin To Net: NetName=NetLabel101 Pin=FMC HPC1-F32
+Added Net: Name=NetLabel101
+Added Pin To Net: NetName=NetLabel102 Pin=FMC HPC1-G39
+Added Net: Name=NetLabel102
+Added Pin To Net: NetName=NetLabel103 Pin=FMC HPC1-G37
+Added Net: Name=NetLabel103
+Added Pin To Net: NetName=NetLabel104 Pin=FMC HPC1-G36
+Added Net: Name=NetLabel104
+Added Pin To Net: NetName=NetLabel105 Pin=FMC HPC1-G34
+Added Net: Name=NetLabel105
+Added Pin To Net: NetName=NetLabel106 Pin=FMC HPC1-G33
+Added Net: Name=NetLabel106
+Added Pin To Net: NetName=NetLabel107 Pin=FMC HPC1-H40
+Added Net: Name=NetLabel107
+Added Pin To Net: NetName=NetLabel108 Pin=FMC HPC1-H38
+Added Net: Name=NetLabel108
+Added Pin To Net: NetName=NetLabel109 Pin=FMC HPC1-H37
+Added Net: Name=NetLabel109
+Added Pin To Net: NetName=NetLabel110 Pin=FMC HPC1-H35
+Added Net: Name=NetLabel110
+Added Pin To Net: NetName=NetLabel111 Pin=FMC HPC1-H34
+Added Net: Name=NetLabel111
+Added Pin To Net: NetName=NetLabel112 Pin=FMC HPC1-J39
+Added Net: Name=NetLabel112
+Added Pin To Net: NetName=NetLabel113 Pin=FMC HPC1-J37
+Added Net: Name=NetLabel113
+Added Pin To Net: NetName=NetLabel114 Pin=FMC HPC1-J36
+Added Net: Name=NetLabel114
+Added Pin To Net: NetName=NetLabel115 Pin=FMC HPC1-J34
+Added Net: Name=NetLabel115
+Added Pin To Net: NetName=NetLabel116 Pin=FMC HPC1-K34
+Added Net: Name=NetLabel116
+Added Pin To Net: NetName=NetLabel117 Pin=FMC HPC1-K35
+Added Net: Name=NetLabel117
+Added Pin To Net: NetName=NetLabel118 Pin=FMC HPC1-K37
+Added Net: Name=NetLabel118
+Added Pin To Net: NetName=NetLabel119 Pin=FMC HPC1-K38
+Added Net: Name=NetLabel119
+Added Pin To Net: NetName=NetLabel120 Pin=FMC HPC1-K40
+Added Net: Name=NetLabel120
