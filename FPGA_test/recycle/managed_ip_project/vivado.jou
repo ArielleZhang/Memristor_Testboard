@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Jul 26 11:43:17 2021
+# Process ID: 6604
+# Current directory: E:/Memristor_testboard/FPGA_test/managed_ip_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent936 E:\Memristor_testboard\FPGA_test\managed_ip_project\managed_ip_project.xpr
+# Log file: E:/Memristor_testboard/FPGA_test/managed_ip_project/vivado.log
+# Journal file: E:/Memristor_testboard/FPGA_test/managed_ip_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Memristor_testboard/FPGA_test/managed_ip_project/managed_ip_project.xpr
+create_ip -name pingpong_clk -vendor xilinx.com -library user -version 1.0 -module_name pingpong_clk_0 -dir e:/Memristor_testboard/FPGA_test
+generate_target {instantiation_template} [get_files e:/Memristor_testboard/FPGA_test/pingpong_clk_0/pingpong_clk_0.xci]
+ipx::edit_ip_in_project -upgrade true -name pingpong_clk_v1_0_project -directory E:/Memristor_testboard/FPGA_test/managed_ip_project/managed_ip_project.tmp/pingpong_clk_v1_0_project e:/Memristor_testboard/FPGA_test/ip_repo/pingpong_clk_1.0/component.xml
+update_compile_order -fileset sources_1
+current_project managed_ip_project
+close_project

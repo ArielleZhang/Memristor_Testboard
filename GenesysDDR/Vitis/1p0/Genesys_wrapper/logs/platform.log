@@ -1,0 +1,755 @@
+TRACE::2021-07-26.00:55:16::SCWPlatform::Trying to open the hw design at E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:16::SCWPlatform::DSA given E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:16::SCWPlatform::DSA absoulate path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:17::SCWPlatform::DSA directory E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw
+TRACE::2021-07-26.00:55:17::SCWPlatform:: Platform Path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:17::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2021-07-26.00:55:17::SCWPlatform::Do not have an existing db opened. 
+TRACE::2021-07-26.00:55:18::SCWPlatform::Opened new HwDB with name Genesys_wrapper_1
+TRACE::2021-07-26.00:55:18::SCWWriter::formatted JSON is {
+	"platformName":	"Genesys_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Genesys_wrapper",
+	"platHandOff":	"E:/GenesysDDR/Vitis/PLATFORM1/Genesys_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Genesys_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2021-07-26.00:55:18::SCWWriter::formatted JSON is {
+	"platformName":	"Genesys_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Genesys_wrapper",
+	"platHandOff":	"E:/GenesysDDR/Vitis/PLATFORM1/Genesys_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Genesys_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Genesys_wrapper",
+	"systems":	[{
+			"systemName":	"Genesys_wrapper",
+			"systemDesc":	"Genesys_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Genesys_wrapper"
+		}]
+}
+TRACE::2021-07-26.00:55:18::SCWPlatform::Boot application domains not present, creating them
+TRACE::2021-07-26.00:55:18::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2021-07-26.00:55:18::SCWWriter::formatted JSON is {
+	"platformName":	"Genesys_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Genesys_wrapper",
+	"platHandOff":	"E:/GenesysDDR/Vitis/PLATFORM1/Genesys_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Genesys_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Genesys_wrapper",
+	"systems":	[{
+			"systemName":	"Genesys_wrapper",
+			"systemDesc":	"Genesys_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Genesys_wrapper"
+		}]
+}
+TRACE::2021-07-26.00:55:18::SCWWriter::formatted JSON is {
+	"platformName":	"Genesys_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Genesys_wrapper",
+	"platHandOff":	"E:/GenesysDDR/Vitis/PLATFORM1/Genesys_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Genesys_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Genesys_wrapper",
+	"systems":	[{
+			"systemName":	"Genesys_wrapper",
+			"systemDesc":	"Genesys_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Genesys_wrapper"
+		}]
+}
+TRACE::2021-07-26.00:55:18::SCWPlatform::Trying to open the hw design at E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:18::SCWPlatform::DSA given E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:18::SCWPlatform::DSA absoulate path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:18::SCWPlatform::DSA directory E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw
+TRACE::2021-07-26.00:55:18::SCWPlatform:: Platform Path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:18::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2021-07-26.00:55:18::SCWPlatform::Trying to set the existing hwdb with name Genesys_wrapper_1
+TRACE::2021-07-26.00:55:18::SCWPlatform::Opened existing hwdb Genesys_wrapper_1
+TRACE::2021-07-26.00:55:18::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-07-26.00:55:18::SCWDomain::checking for install qemu data   : 
+TRACE::2021-07-26.00:55:18::SCWPlatform::Trying to open the hw design at E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:18::SCWPlatform::DSA given E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:18::SCWPlatform::DSA absoulate path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:18::SCWPlatform::DSA directory E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw
+TRACE::2021-07-26.00:55:18::SCWPlatform:: Platform Path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:18::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2021-07-26.00:55:18::SCWPlatform::Trying to set the existing hwdb with name Genesys_wrapper_1
+TRACE::2021-07-26.00:55:18::SCWPlatform::Opened existing hwdb Genesys_wrapper_1
+TRACE::2021-07-26.00:55:18::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-07-26.00:55:18::SCWPlatform::Trying to open the hw design at E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:18::SCWPlatform::DSA given E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:18::SCWPlatform::DSA absoulate path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:18::SCWPlatform::DSA directory E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw
+TRACE::2021-07-26.00:55:18::SCWPlatform:: Platform Path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:18::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2021-07-26.00:55:18::SCWPlatform::Trying to set the existing hwdb with name Genesys_wrapper_1
+TRACE::2021-07-26.00:55:18::SCWPlatform::Opened existing hwdb Genesys_wrapper_1
+TRACE::2021-07-26.00:55:18::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-07-26.00:55:18::SCWMssOS::Checking the sw design at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:18::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2021-07-26.00:55:18::SCWMssOS::No sw design opened at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:18::SCWMssOS::mss does not exists at E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:18::SCWMssOS::Creating sw design at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:18::SCWMssOS::Adding the swdes entry, created swdb E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss with des name E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:18::SCWMssOS::updating the scw layer changes to swdes at   E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:18::SCWMssOS::Writing mss at E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:18::SCWMssOS::Completed writing the mss file at E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp
+TRACE::2021-07-26.00:55:18::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2021-07-26.00:55:18::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2021-07-26.00:55:18::SCWPlatform::Trying to open the hw design at E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:18::SCWPlatform::DSA given E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:18::SCWPlatform::DSA absoulate path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:18::SCWPlatform::DSA directory E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw
+TRACE::2021-07-26.00:55:18::SCWPlatform:: Platform Path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:18::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2021-07-26.00:55:18::SCWPlatform::Trying to set the existing hwdb with name Genesys_wrapper_1
+TRACE::2021-07-26.00:55:18::SCWPlatform::Opened existing hwdb Genesys_wrapper_1
+TRACE::2021-07-26.00:55:18::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-07-26.00:55:18::SCWMssOS::Checking the sw design at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:18::SCWMssOS::DEBUG:  swdes dump  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss|E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2021-07-26.00:55:18::SCWMssOS::Sw design exists and opened at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:18::SCWPlatform::Trying to open the hw design at E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:18::SCWPlatform::DSA given E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:18::SCWPlatform::DSA absoulate path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:18::SCWPlatform::DSA directory E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw
+TRACE::2021-07-26.00:55:18::SCWPlatform:: Platform Path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:18::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2021-07-26.00:55:18::SCWPlatform::Trying to set the existing hwdb with name Genesys_wrapper_1
+TRACE::2021-07-26.00:55:18::SCWPlatform::Opened existing hwdb Genesys_wrapper_1
+TRACE::2021-07-26.00:55:18::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-07-26.00:55:18::SCWMssOS::Checking the sw design at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:18::SCWMssOS::DEBUG:  swdes dump  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss|E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2021-07-26.00:55:18::SCWMssOS::Sw design exists and opened at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:18::SCWPlatform::Trying to open the hw design at E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:18::SCWPlatform::DSA given E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:18::SCWPlatform::DSA absoulate path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:18::SCWPlatform::DSA directory E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw
+TRACE::2021-07-26.00:55:18::SCWPlatform:: Platform Path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:18::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2021-07-26.00:55:18::SCWPlatform::Trying to set the existing hwdb with name Genesys_wrapper_1
+TRACE::2021-07-26.00:55:18::SCWPlatform::Opened existing hwdb Genesys_wrapper_1
+TRACE::2021-07-26.00:55:18::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-07-26.00:55:18::SCWMssOS::Checking the sw design at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:18::SCWMssOS::DEBUG:  swdes dump  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss|E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2021-07-26.00:55:18::SCWMssOS::Sw design exists and opened at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:18::SCWWriter::formatted JSON is {
+	"platformName":	"Genesys_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Genesys_wrapper",
+	"platHandOff":	"E:/GenesysDDR/Vitis/PLATFORM1/Genesys_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Genesys_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Genesys_wrapper",
+	"systems":	[{
+			"systemName":	"Genesys_wrapper",
+			"systemDesc":	"Genesys_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Genesys_wrapper",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2021-07-26.00:55:18::SCWPlatform::Trying to open the hw design at E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:18::SCWPlatform::DSA given E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:18::SCWPlatform::DSA absoulate path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:18::SCWPlatform::DSA directory E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw
+TRACE::2021-07-26.00:55:18::SCWPlatform:: Platform Path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:18::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2021-07-26.00:55:18::SCWPlatform::Trying to set the existing hwdb with name Genesys_wrapper_1
+TRACE::2021-07-26.00:55:18::SCWPlatform::Opened existing hwdb Genesys_wrapper_1
+TRACE::2021-07-26.00:55:18::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-07-26.00:55:18::SCWMssOS::Checking the sw design at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:18::SCWMssOS::DEBUG:  swdes dump  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss|E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2021-07-26.00:55:18::SCWMssOS::Sw design exists and opened at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:18::SCWMssOS::Completed writing the mss file at E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp
+TRACE::2021-07-26.00:55:18::SCWMssOS::Forcing BSP Sources regeneration.
+LOG::2021-07-26.00:55:20::SCWPlatform::Started generating the artifacts platform Genesys_wrapper
+TRACE::2021-07-26.00:55:20::SCWPlatform::Sanity checking of platform is completed
+LOG::2021-07-26.00:55:20::SCWPlatform::Started generating the artifacts for system configuration Genesys_wrapper
+LOG::2021-07-26.00:55:20::SCWSystem::Checking the domain standalone_domain
+LOG::2021-07-26.00:55:20::SCWSystem::Not a boot domain 
+LOG::2021-07-26.00:55:20::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2021-07-26.00:55:20::SCWDomain::Generating domain artifcats
+TRACE::2021-07-26.00:55:20::SCWMssOS::Generating standalone artifcats
+TRACE::2021-07-26.00:55:20::SCWMssOS:: Copying the user libraries. 
+TRACE::2021-07-26.00:55:20::SCWPlatform::Trying to open the hw design at E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:20::SCWPlatform::DSA given E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:20::SCWPlatform::DSA absoulate path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:20::SCWPlatform::DSA directory E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw
+TRACE::2021-07-26.00:55:20::SCWPlatform:: Platform Path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:20::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2021-07-26.00:55:20::SCWPlatform::Trying to set the existing hwdb with name Genesys_wrapper_1
+TRACE::2021-07-26.00:55:20::SCWPlatform::Opened existing hwdb Genesys_wrapper_1
+TRACE::2021-07-26.00:55:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-07-26.00:55:20::SCWMssOS::Checking the sw design at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:20::SCWMssOS::DEBUG:  swdes dump  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss|E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss||
+
+KEYINFO::2021-07-26.00:55:20::SCWMssOS::Could not open the swdb for E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+KEYINFO::2021-07-26.00:55:20::SCWMssOS::Could not open the sw design at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss is not found
+
+TRACE::2021-07-26.00:55:20::SCWMssOS::Cleared the swdb table entry
+TRACE::2021-07-26.00:55:20::SCWMssOS::No sw design opened at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:20::SCWMssOS::mss exists loading the mss file  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:20::SCWMssOS::Opened the sw design from mss  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:20::SCWMssOS::Adding the swdes entry E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2021-07-26.00:55:20::SCWMssOS::updating the scw layer about changes
+TRACE::2021-07-26.00:55:20::SCWMssOS::Opened the sw design.  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:20::SCWMssOS::Completed writing the mss file at E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp
+TRACE::2021-07-26.00:55:20::SCWMssOS::Mss edits present, copying mssfile into export location E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:20::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2021-07-26.00:55:20::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2021-07-26.00:55:20::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2021-07-26.00:55:20::SCWMssOS::skipping the bsp build ... 
+TRACE::2021-07-26.00:55:20::SCWMssOS::Copying to export directory.
+TRACE::2021-07-26.00:55:21::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2021-07-26.00:55:21::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2021-07-26.00:55:21::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2021-07-26.00:55:21::SCWSystem::Completed Processing the sysconfig Genesys_wrapper
+LOG::2021-07-26.00:55:21::SCWPlatform::Completed generating the artifacts for system configuration Genesys_wrapper
+TRACE::2021-07-26.00:55:21::SCWPlatform::Started preparing the platform 
+TRACE::2021-07-26.00:55:21::SCWSystem::Writing the bif file for system config Genesys_wrapper
+TRACE::2021-07-26.00:55:21::SCWSystem::dir created 
+TRACE::2021-07-26.00:55:21::SCWSystem::Writing the bif 
+TRACE::2021-07-26.00:55:21::SCWPlatform::Started writing the spfm file 
+TRACE::2021-07-26.00:55:21::SCWPlatform::Started writing the xpfm file 
+TRACE::2021-07-26.00:55:21::SCWPlatform::Completed generating the platform
+TRACE::2021-07-26.00:55:21::SCWPlatform::Trying to open the hw design at E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA given E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA absoulate path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA directory E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw
+TRACE::2021-07-26.00:55:21::SCWPlatform:: Platform Path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2021-07-26.00:55:21::SCWPlatform::Trying to set the existing hwdb with name Genesys_wrapper_1
+TRACE::2021-07-26.00:55:21::SCWPlatform::Opened existing hwdb Genesys_wrapper_1
+TRACE::2021-07-26.00:55:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-07-26.00:55:21::SCWMssOS::Checking the sw design at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:21::SCWMssOS::DEBUG:  swdes dump  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-07-26.00:55:21::SCWMssOS::Sw design exists and opened at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:21::SCWPlatform::Trying to open the hw design at E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA given E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA absoulate path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA directory E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw
+TRACE::2021-07-26.00:55:21::SCWPlatform:: Platform Path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2021-07-26.00:55:21::SCWPlatform::Trying to set the existing hwdb with name Genesys_wrapper_1
+TRACE::2021-07-26.00:55:21::SCWPlatform::Opened existing hwdb Genesys_wrapper_1
+TRACE::2021-07-26.00:55:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-07-26.00:55:21::SCWMssOS::Checking the sw design at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:21::SCWMssOS::DEBUG:  swdes dump  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-07-26.00:55:21::SCWMssOS::Sw design exists and opened at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:21::SCWPlatform::Trying to open the hw design at E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA given E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA absoulate path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA directory E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw
+TRACE::2021-07-26.00:55:21::SCWPlatform:: Platform Path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2021-07-26.00:55:21::SCWPlatform::Trying to set the existing hwdb with name Genesys_wrapper_1
+TRACE::2021-07-26.00:55:21::SCWPlatform::Opened existing hwdb Genesys_wrapper_1
+TRACE::2021-07-26.00:55:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-07-26.00:55:21::SCWMssOS::Checking the sw design at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:21::SCWMssOS::DEBUG:  swdes dump  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-07-26.00:55:21::SCWMssOS::Sw design exists and opened at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:21::SCWWriter::formatted JSON is {
+	"platformName":	"Genesys_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Genesys_wrapper",
+	"platHandOff":	"E:/GenesysDDR/Vitis/PLATFORM1/Genesys_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Genesys_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Genesys_wrapper",
+	"systems":	[{
+			"systemName":	"Genesys_wrapper",
+			"systemDesc":	"Genesys_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Genesys_wrapper",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"f145395311541f30253cebc51c0742cb",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2021-07-26.00:55:21::SCWPlatform::updated the xpfm file.
+TRACE::2021-07-26.00:55:21::SCWPlatform::Trying to open the hw design at E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA given E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA absoulate path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA directory E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw
+TRACE::2021-07-26.00:55:21::SCWPlatform:: Platform Path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2021-07-26.00:55:21::SCWPlatform::Trying to set the existing hwdb with name Genesys_wrapper_1
+TRACE::2021-07-26.00:55:21::SCWPlatform::Opened existing hwdb Genesys_wrapper_1
+TRACE::2021-07-26.00:55:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-07-26.00:55:21::SCWMssOS::Checking the sw design at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:21::SCWMssOS::DEBUG:  swdes dump  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-07-26.00:55:21::SCWMssOS::Sw design exists and opened at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:21::SCWPlatform::Trying to open the hw design at E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA given E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA absoulate path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA directory E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw
+TRACE::2021-07-26.00:55:21::SCWPlatform:: Platform Path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2021-07-26.00:55:21::SCWPlatform::Trying to set the existing hwdb with name Genesys_wrapper_1
+TRACE::2021-07-26.00:55:21::SCWPlatform::Opened existing hwdb Genesys_wrapper_1
+TRACE::2021-07-26.00:55:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-07-26.00:55:21::SCWMssOS::Checking the sw design at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:21::SCWMssOS::DEBUG:  swdes dump  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-07-26.00:55:21::SCWMssOS::Sw design exists and opened at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:21::SCWPlatform::Trying to open the hw design at E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA given E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA absoulate path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA directory E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw
+TRACE::2021-07-26.00:55:21::SCWPlatform:: Platform Path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2021-07-26.00:55:21::SCWPlatform::Trying to set the existing hwdb with name Genesys_wrapper_1
+TRACE::2021-07-26.00:55:21::SCWPlatform::Opened existing hwdb Genesys_wrapper_1
+TRACE::2021-07-26.00:55:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-07-26.00:55:21::SCWMssOS::Checking the sw design at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:21::SCWMssOS::DEBUG:  swdes dump  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-07-26.00:55:21::SCWMssOS::Sw design exists and opened at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:21::SCWPlatform::Trying to open the hw design at E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA given E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA absoulate path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA directory E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw
+TRACE::2021-07-26.00:55:21::SCWPlatform:: Platform Path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2021-07-26.00:55:21::SCWPlatform::Trying to set the existing hwdb with name Genesys_wrapper_1
+TRACE::2021-07-26.00:55:21::SCWPlatform::Opened existing hwdb Genesys_wrapper_1
+TRACE::2021-07-26.00:55:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-07-26.00:55:21::SCWMssOS::Checking the sw design at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:21::SCWMssOS::DEBUG:  swdes dump  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-07-26.00:55:21::SCWMssOS::Sw design exists and opened at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:21::SCWWriter::formatted JSON is {
+	"platformName":	"Genesys_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Genesys_wrapper",
+	"platHandOff":	"E:/GenesysDDR/Vitis/PLATFORM1/Genesys_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Genesys_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Genesys_wrapper",
+	"systems":	[{
+			"systemName":	"Genesys_wrapper",
+			"systemDesc":	"Genesys_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Genesys_wrapper",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"f145395311541f30253cebc51c0742cb",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2021-07-26.00:55:21::SCWPlatform::Trying to open the hw design at E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA given E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA absoulate path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA directory E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw
+TRACE::2021-07-26.00:55:21::SCWPlatform:: Platform Path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2021-07-26.00:55:21::SCWPlatform::Trying to set the existing hwdb with name Genesys_wrapper_1
+TRACE::2021-07-26.00:55:21::SCWPlatform::Opened existing hwdb Genesys_wrapper_1
+TRACE::2021-07-26.00:55:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-07-26.00:55:21::SCWMssOS::Checking the sw design at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:21::SCWMssOS::DEBUG:  swdes dump  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-07-26.00:55:21::SCWMssOS::Sw design exists and opened at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:21::SCWPlatform::Trying to open the hw design at E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA given E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA absoulate path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA directory E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw
+TRACE::2021-07-26.00:55:21::SCWPlatform:: Platform Path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2021-07-26.00:55:21::SCWPlatform::Trying to set the existing hwdb with name Genesys_wrapper_1
+TRACE::2021-07-26.00:55:21::SCWPlatform::Opened existing hwdb Genesys_wrapper_1
+TRACE::2021-07-26.00:55:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-07-26.00:55:21::SCWMssOS::Checking the sw design at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:21::SCWMssOS::DEBUG:  swdes dump  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-07-26.00:55:21::SCWMssOS::Sw design exists and opened at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:21::SCWPlatform::Trying to open the hw design at E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA given E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA absoulate path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA directory E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw
+TRACE::2021-07-26.00:55:21::SCWPlatform:: Platform Path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2021-07-26.00:55:21::SCWPlatform::Trying to set the existing hwdb with name Genesys_wrapper_1
+TRACE::2021-07-26.00:55:21::SCWPlatform::Opened existing hwdb Genesys_wrapper_1
+TRACE::2021-07-26.00:55:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-07-26.00:55:21::SCWMssOS::Checking the sw design at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:21::SCWMssOS::DEBUG:  swdes dump  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-07-26.00:55:21::SCWMssOS::Sw design exists and opened at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:21::SCWPlatform::Trying to open the hw design at E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA given E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA absoulate path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA directory E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw
+TRACE::2021-07-26.00:55:21::SCWPlatform:: Platform Path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2021-07-26.00:55:21::SCWPlatform::Trying to set the existing hwdb with name Genesys_wrapper_1
+TRACE::2021-07-26.00:55:21::SCWPlatform::Opened existing hwdb Genesys_wrapper_1
+TRACE::2021-07-26.00:55:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-07-26.00:55:21::SCWMssOS::Checking the sw design at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:21::SCWMssOS::DEBUG:  swdes dump  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-07-26.00:55:21::SCWMssOS::Sw design exists and opened at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:21::SCWPlatform::Trying to open the hw design at E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA given E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA absoulate path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA directory E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw
+TRACE::2021-07-26.00:55:21::SCWPlatform:: Platform Path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2021-07-26.00:55:21::SCWPlatform::Trying to set the existing hwdb with name Genesys_wrapper_1
+TRACE::2021-07-26.00:55:21::SCWPlatform::Opened existing hwdb Genesys_wrapper_1
+TRACE::2021-07-26.00:55:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-07-26.00:55:21::SCWMssOS::Checking the sw design at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:21::SCWMssOS::DEBUG:  swdes dump  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-07-26.00:55:21::SCWMssOS::Sw design exists and opened at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:21::SCWWriter::formatted JSON is {
+	"platformName":	"Genesys_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Genesys_wrapper",
+	"platHandOff":	"E:/GenesysDDR/Vitis/PLATFORM1/Genesys_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Genesys_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Genesys_wrapper",
+	"systems":	[{
+			"systemName":	"Genesys_wrapper",
+			"systemDesc":	"Genesys_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Genesys_wrapper",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"f145395311541f30253cebc51c0742cb",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2021-07-26.00:55:21::SCWPlatform::Started generating the artifacts platform Genesys_wrapper
+TRACE::2021-07-26.00:55:21::SCWPlatform::Sanity checking of platform is completed
+LOG::2021-07-26.00:55:21::SCWPlatform::Started generating the artifacts for system configuration Genesys_wrapper
+LOG::2021-07-26.00:55:21::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2021-07-26.00:55:21::SCWDomain::Generating domain artifcats
+TRACE::2021-07-26.00:55:21::SCWMssOS::Generating standalone artifcats
+TRACE::2021-07-26.00:55:21::SCWMssOS:: Copying the user libraries. 
+TRACE::2021-07-26.00:55:21::SCWPlatform::Trying to open the hw design at E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA given E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA absoulate path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA directory E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw
+TRACE::2021-07-26.00:55:21::SCWPlatform:: Platform Path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2021-07-26.00:55:21::SCWPlatform::Trying to set the existing hwdb with name Genesys_wrapper_1
+TRACE::2021-07-26.00:55:21::SCWPlatform::Opened existing hwdb Genesys_wrapper_1
+TRACE::2021-07-26.00:55:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-07-26.00:55:21::SCWMssOS::Checking the sw design at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:21::SCWMssOS::DEBUG:  swdes dump  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-07-26.00:55:21::SCWMssOS::Sw design exists and opened at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:21::SCWMssOS::Completed writing the mss file at E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp
+TRACE::2021-07-26.00:55:21::SCWMssOS::Mss edits present, copying mssfile into export location E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:21::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2021-07-26.00:55:21::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2021-07-26.00:55:21::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2021-07-26.00:55:21::SCWMssOS::skipping the bsp build ... 
+TRACE::2021-07-26.00:55:21::SCWMssOS::Copying to export directory.
+TRACE::2021-07-26.00:55:21::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2021-07-26.00:55:21::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2021-07-26.00:55:21::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2021-07-26.00:55:21::SCWSystem::Completed Processing the sysconfig Genesys_wrapper
+LOG::2021-07-26.00:55:21::SCWPlatform::Completed generating the artifacts for system configuration Genesys_wrapper
+TRACE::2021-07-26.00:55:21::SCWPlatform::Started preparing the platform 
+TRACE::2021-07-26.00:55:21::SCWSystem::Writing the bif file for system config Genesys_wrapper
+TRACE::2021-07-26.00:55:21::SCWSystem::dir created 
+TRACE::2021-07-26.00:55:21::SCWSystem::Writing the bif 
+TRACE::2021-07-26.00:55:21::SCWPlatform::Started writing the spfm file 
+TRACE::2021-07-26.00:55:21::SCWPlatform::Started writing the xpfm file 
+TRACE::2021-07-26.00:55:21::SCWPlatform::Completed generating the platform
+TRACE::2021-07-26.00:55:21::SCWPlatform::Trying to open the hw design at E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA given E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA absoulate path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA directory E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw
+TRACE::2021-07-26.00:55:21::SCWPlatform:: Platform Path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2021-07-26.00:55:21::SCWPlatform::Trying to set the existing hwdb with name Genesys_wrapper_1
+TRACE::2021-07-26.00:55:21::SCWPlatform::Opened existing hwdb Genesys_wrapper_1
+TRACE::2021-07-26.00:55:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-07-26.00:55:21::SCWMssOS::Checking the sw design at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:21::SCWMssOS::DEBUG:  swdes dump  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-07-26.00:55:21::SCWMssOS::Sw design exists and opened at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:21::SCWPlatform::Trying to open the hw design at E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA given E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA absoulate path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA directory E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw
+TRACE::2021-07-26.00:55:21::SCWPlatform:: Platform Path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2021-07-26.00:55:21::SCWPlatform::Trying to set the existing hwdb with name Genesys_wrapper_1
+TRACE::2021-07-26.00:55:21::SCWPlatform::Opened existing hwdb Genesys_wrapper_1
+TRACE::2021-07-26.00:55:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-07-26.00:55:21::SCWMssOS::Checking the sw design at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:21::SCWMssOS::DEBUG:  swdes dump  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-07-26.00:55:21::SCWMssOS::Sw design exists and opened at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:21::SCWPlatform::Trying to open the hw design at E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA given E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA absoulate path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform::DSA directory E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw
+TRACE::2021-07-26.00:55:21::SCWPlatform:: Platform Path E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/hw/Genesys_wrapper.xsa
+TRACE::2021-07-26.00:55:21::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2021-07-26.00:55:21::SCWPlatform::Trying to set the existing hwdb with name Genesys_wrapper_1
+TRACE::2021-07-26.00:55:21::SCWPlatform::Opened existing hwdb Genesys_wrapper_1
+TRACE::2021-07-26.00:55:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-07-26.00:55:21::SCWMssOS::Checking the sw design at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:21::SCWMssOS::DEBUG:  swdes dump  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-07-26.00:55:21::SCWMssOS::Sw design exists and opened at  E:/GenesysDDR/Vitis/1p0/Genesys_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-07-26.00:55:21::SCWWriter::formatted JSON is {
+	"platformName":	"Genesys_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Genesys_wrapper",
+	"platHandOff":	"E:/GenesysDDR/Vitis/PLATFORM1/Genesys_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Genesys_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Genesys_wrapper",
+	"systems":	[{
+			"systemName":	"Genesys_wrapper",
+			"systemDesc":	"Genesys_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Genesys_wrapper",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"f145395311541f30253cebc51c0742cb",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2021-07-26.00:55:21::SCWPlatform::updated the xpfm file.

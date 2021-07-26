@@ -1,0 +1,21 @@
+2020-08-11T17:17:38.094692900255-17:17:38 **** Incremental Build of configuration Debug for project DDR ****
+000-make all 
+000-'Building file: ../src/helloworld.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Users/xujia/Genesys/Vitis/Genesys_wrapper/export/Genesys_wrapper/sw/Genesys_wrapper/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+000-'Finished building: ../src/helloworld.c'
+000-' '
+000-'Building target: DDR.elf'
+000-'Invoking: MicroBlaze gcc linker'
+000-mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/xujia/Genesys/Vitis/Genesys_wrapper/export/Genesys_wrapper/sw/Genesys_wrapper/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "DDR.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: DDR.elf'
+000-' '
+000-'Invoking: MicroBlaze Print Size'
+000-mb-size DDR.elf  |tee "DDR.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-   2808	    276	   3108	   6192	   1830	DDR.elf
+000-'Finished building: DDR.elf.size'
+000-' '
+00255-
+17:17:39 Build Finished (took 1s.180ms)
+

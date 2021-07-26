@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/xujia/Genesys/Genesys.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="7fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="407"></NameColumnWidth>
+      <ValueColumnWidth column_width="144"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="32" />
+   <wvobject fp_name="Genesys_i/system_ila/inst/net_slot_0_axi_ar_cnt" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Genesys_i/system_ila/inst/net_slot_0_axi_ar_cnt[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_ar_cnt[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Genesys_i/system_ila/inst/net_slot_0_axi_araddr" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Genesys_i/system_ila/inst/net_slot_0_axi_araddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_araddr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Genesys_i/system_ila/inst/net_slot_0_axi_arburst" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Genesys_i/system_ila/inst/net_slot_0_axi_arburst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_arburst[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Genesys_i/system_ila/inst/net_slot_0_axi_arcache" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Genesys_i/system_ila/inst/net_slot_0_axi_arcache[3:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_arcache[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Genesys_i/system_ila/inst/net_slot_0_axi_arlen" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Genesys_i/system_ila/inst/net_slot_0_axi_arlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_arlen[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Genesys_i/system_ila/inst/net_slot_0_axi_arlock" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Genesys_i/system_ila/inst/net_slot_0_axi_arlock</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_arlock</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Genesys_i/system_ila/inst/net_slot_0_axi_arprot" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Genesys_i/system_ila/inst/net_slot_0_axi_arprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_arprot[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Genesys_i/system_ila/inst/net_slot_0_axi_arqos" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Genesys_i/system_ila/inst/net_slot_0_axi_arqos[3:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_arqos[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Genesys_i/system_ila/inst/net_slot_0_axi_arregion" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Genesys_i/system_ila/inst/net_slot_0_axi_arregion[3:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_arregion[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Genesys_i/system_ila/inst/net_slot_0_axi_arsize" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Genesys_i/system_ila/inst/net_slot_0_axi_arsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_arsize[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Genesys_i/system_ila/inst/net_slot_0_axi_aw_cnt" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Genesys_i/system_ila/inst/net_slot_0_axi_aw_cnt[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_aw_cnt[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Genesys_i/system_ila/inst/net_slot_0_axi_awaddr" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Genesys_i/system_ila/inst/net_slot_0_axi_awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_awaddr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Genesys_i/system_ila/inst/net_slot_0_axi_awburst" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Genesys_i/system_ila/inst/net_slot_0_axi_awburst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_awburst[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Genesys_i/system_ila/inst/net_slot_0_axi_awcache" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Genesys_i/system_ila/inst/net_slot_0_axi_awcache[3:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_awcache[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Genesys_i/system_ila/inst/net_slot_0_axi_awlen" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Genesys_i/system_ila/inst/net_slot_0_axi_awlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_awlen[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Genesys_i/system_ila/inst/net_slot_0_axi_awlock" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Genesys_i/system_ila/inst/net_slot_0_axi_awlock</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_awlock</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Genesys_i/system_ila/inst/net_slot_0_axi_awprot" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Genesys_i/system_ila/inst/net_slot_0_axi_awprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_awprot[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Genesys_i/system_ila/inst/net_slot_0_axi_awqos" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Genesys_i/system_ila/inst/net_slot_0_axi_awqos[3:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_awqos[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Genesys_i/system_ila/inst/net_slot_0_axi_awregion" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Genesys_i/system_ila/inst/net_slot_0_axi_awregion[3:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_awregion[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Genesys_i/system_ila/inst/net_slot_0_axi_awsize" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Genesys_i/system_ila/inst/net_slot_0_axi_awsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_awsize[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Genesys_i/system_ila/inst/net_slot_0_axi_b_cnt" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Genesys_i/system_ila/inst/net_slot_0_axi_b_cnt[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_b_cnt[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Genesys_i/system_ila/inst/net_slot_0_axi_bresp" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Genesys_i/system_ila/inst/net_slot_0_axi_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_bresp[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Genesys_i/system_ila/inst/net_slot_0_axi_r_cnt" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Genesys_i/system_ila/inst/net_slot_0_axi_r_cnt[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_r_cnt[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Genesys_i/system_ila/inst/net_slot_0_axi_rdata" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Genesys_i/system_ila/inst/net_slot_0_axi_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_rdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Genesys_i/system_ila/inst/net_slot_0_axi_rresp" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Genesys_i/system_ila/inst/net_slot_0_axi_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_rresp[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Genesys_i/system_ila/inst/net_slot_0_axi_wdata" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Genesys_i/system_ila/inst/net_slot_0_axi_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_wdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Genesys_i/system_ila/inst/net_slot_0_axi_wstrb" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Genesys_i/system_ila/inst/net_slot_0_axi_wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_wstrb[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Genesys_i/system_ila/inst/net_slot_0_axi_aw_ctrl" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Genesys_i/system_ila/inst/net_slot_0_axi_aw_ctrl[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_aw_ctrl[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Genesys_i/system_ila/inst/net_slot_0_axi_w_ctrl" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Genesys_i/system_ila/inst/net_slot_0_axi_w_ctrl[2:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_w_ctrl[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Genesys_i/system_ila/inst/net_slot_0_axi_b_ctrl" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Genesys_i/system_ila/inst/net_slot_0_axi_b_ctrl[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_b_ctrl[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Genesys_i/system_ila/inst/net_slot_0_axi_ar_ctrl" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Genesys_i/system_ila/inst/net_slot_0_axi_ar_ctrl[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_ar_ctrl[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Genesys_i/system_ila/inst/net_slot_0_axi_r_ctrl" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Genesys_i/system_ila/inst/net_slot_0_axi_r_ctrl[2:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_r_ctrl[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

@@ -19,8 +19,11 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
+//base clk is 400Mhz
+//period = 1/400 000 000 = 1/4 * 10^-8 0.25 * 10^-8 = 2.5 ns;
 
-//1 ns = 0.000000001s
+//period = 2500 000 000/freq  convert period to 2.5ns 
+
 //the base clock is o.5 ns, o.5ns
 // input frequency in Hz
 
@@ -36,9 +39,9 @@
 module Pingpong_buffer_clk
 //#(parameter COUNTER_WIDTH = 14'd10)
 (
-input wire [23:0] FREQUENCY,
+input wire [23:0] FREQUENCY, //100MHz
 output wire PINGPONG_CLK,
-input wire CLK
+input wire CLK //1Ghz 100Mhz
 //output wire [18:0] WIDTH,
 //output wire [18:0] HALF);
 
@@ -54,7 +57,7 @@ reg [18:0]COUNTER = 0 ;
 //COUNTER WITDH has a maximum of 1/10000 * 1 000 000 000 - 1 = 9999;
 //2^17 > 99 999
 
-assign WIDTH = (100000000/FREQUENCY) - 1;
+assign WIDTH = (40000000/FREQUENCY) - 1;
     
 //assign WIDTH = counter_width;
   

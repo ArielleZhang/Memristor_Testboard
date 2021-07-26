@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="Genesys_mig_7series_0_0_synth_1" LaunchDir="C:/Users/xujia/Genesys/Genesys.runs/Genesys_mig_7series_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Genesys_microblaze_0_0_synth_1" LaunchDir="C:/Users/xujia/Genesys/Genesys.runs/Genesys_microblaze_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Genesys_axi_uartlite_0_0_synth_1" LaunchDir="C:/Users/xujia/Genesys/Genesys.runs/Genesys_axi_uartlite_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Genesys_axi_gpio_0_0_synth_1" LaunchDir="C:/Users/xujia/Genesys/Genesys.runs/Genesys_axi_gpio_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Genesys_axi_bram_ctrl_0_0_synth_1" LaunchDir="C:/Users/xujia/Genesys/Genesys.runs/Genesys_axi_bram_ctrl_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Genesys_dlmb_v10_0_synth_1" LaunchDir="C:/Users/xujia/Genesys/Genesys.runs/Genesys_dlmb_v10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Genesys_ilmb_v10_0_synth_1" LaunchDir="C:/Users/xujia/Genesys/Genesys.runs/Genesys_ilmb_v10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="Genesys_dlmb_v10_0_synth_1"/>
+	</Run>
+	<Run Id="Genesys_dlmb_bram_if_cntlr_0_synth_1" LaunchDir="C:/Users/xujia/Genesys/Genesys.runs/Genesys_dlmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Genesys_ilmb_bram_if_cntlr_0_synth_1" LaunchDir="C:/Users/xujia/Genesys/Genesys.runs/Genesys_ilmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Genesys_lmb_bram_0_synth_1" LaunchDir="C:/Users/xujia/Genesys/Genesys.runs/Genesys_lmb_bram_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Genesys_lmb_v10_0_synth_1" LaunchDir="C:/Users/xujia/Genesys/Genesys.runs/Genesys_lmb_v10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="Genesys_dlmb_v10_0_synth_1"/>
+	</Run>
+	<Run Id="Genesys_mdm_1_0_synth_1" LaunchDir="C:/Users/xujia/Genesys/Genesys.runs/Genesys_mdm_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Genesys_rst_mig_7series_0_100M_0_synth_1" LaunchDir="C:/Users/xujia/Genesys/Genesys.runs/Genesys_rst_mig_7series_0_100M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Genesys_axi_bram_ctrl_0_bram_0_synth_1" LaunchDir="C:/Users/xujia/Genesys/Genesys.runs/Genesys_axi_bram_ctrl_0_bram_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Genesys_axi_smc_0_synth_1" LaunchDir="C:/Users/xujia/Genesys/Genesys.runs/Genesys_axi_smc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Genesys_xbar_0_synth_1" LaunchDir="C:/Users/xujia/Genesys/Genesys.runs/Genesys_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Genesys_system_ila_0_synth_1" LaunchDir="C:/Users/xujia/Genesys/Genesys.runs/Genesys_system_ila_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Genesys_rst_mig_7series_0_225M_0_synth_1" LaunchDir="C:/Users/xujia/Genesys/Genesys.runs/Genesys_rst_mig_7series_0_225M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+
