@@ -1,0 +1,17 @@
+2021-08-03T09:30:08.505189400255-09:30:08 **** Build of configuration Debug for project 0802V2 ****
+000-make all 
+000-'Building file: ../src/helloworld.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IE:/newGenesysDDR/Vitis/0802vitis1/Genesys_wrapper_1/export/Genesys_wrapper_1/sw/Genesys_wrapper_1/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+000-../src/helloworld.c: In function 'main':
+000/0802V2/src/helloworld.c66-1-1'HALF' undeclared (first use in this function)2HALF../src/helloworld.c:66:6: error: 'HALF' undeclared (first use in this function)
+000-     *HALF = 50000000/frequency;
+000-      ^~~~
+000/0802V2/src/helloworld.c66-1-1each undeclared identifier is reported only once for each function it appears in0-../src/helloworld.c:66:6: note: each undeclared identifier is reported only once for each function it appears in
+000/0802V2/src/helloworld.c77-1-1unused variable 'b' [-Wunused-variable]1-../src/helloworld.c:77:9: warning: unused variable 'b' [-Wunused-variable]
+000-     int b = 0xAAA; //101010101010
+000-         ^
+000/0802V20-1-1make: *** [src/subdir.mk:26: src/helloworld.o] Error 12-make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+00255-
+09:30:10 Build Finished (took 2s.44ms)
+

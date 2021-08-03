@@ -1,0 +1,6 @@
+2020-08-11T17:02:39.260834800255-17:02:39 **** Build of configuration Debug for project DDR_system ****
+000-make all 
+000-Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+00255-
+17:02:39 Build Finished (took 241ms)
+

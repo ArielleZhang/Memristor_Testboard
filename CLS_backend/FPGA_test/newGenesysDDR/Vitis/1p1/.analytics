@@ -1,0 +1,4 @@
+timestamp=[2021-07-28 13:57:12], mode=WORKBENCH_START, duration=0:00:05.319, duration_ms=5319, data={}
+timestamp=[2021-07-28 13:57:13], mode=WORKBENCH_UI_INIT, duration=0:00:00.945, duration_ms=945, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2021-07-28 13:58:18], mode=APP_CREATION, duration=0:00:09.672, duration_ms=9672, data={name=pingponghalf, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=Genesys_wrapper, application_type=application}
+timestamp=[2021-07-28 13:59:36], mode=PLATFORM_GENERATION, duration=0:00:10.908, duration_ms=10908, data={name=Genesys_wrapper}

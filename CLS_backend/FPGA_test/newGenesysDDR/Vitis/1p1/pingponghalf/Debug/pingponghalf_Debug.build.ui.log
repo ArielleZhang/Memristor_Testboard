@@ -1,0 +1,26 @@
+2021-07-28T14:16:44.313260700255-14:16:44 **** Incremental Build of configuration Debug for project pingponghalf ****
+000-make all 
+000-'Building file: ../src/helloworld.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IE:/newGenesysDDR/Vitis/1p1/Genesys_wrapper/export/Genesys_wrapper/sw/Genesys_wrapper/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+000-../src/helloworld.c: In function 'main':
+000/pingponghalf/src/helloworld.c68-1-1format '%ld' expects argument of type 'long int', but argument 2 has type 'unsigned int' [-Wformat=]1-../src/helloworld.c:68:27: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'unsigned int' [-Wformat=]
+000-     printf("the HALF is %ld\n", *HALF);
+000-                         ~~^     ~~~~~
+000-                         %d
+000-'Finished building: ../src/helloworld.c'
+000-' '
+000-'Building target: pingponghalf.elf'
+000-'Invoking: MicroBlaze gcc linker'
+000-mb-gcc -Wl,-T -Wl,../src/lscript.ld -LE:/newGenesysDDR/Vitis/1p1/Genesys_wrapper/export/Genesys_wrapper/sw/Genesys_wrapper/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "pingponghalf.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: pingponghalf.elf'
+000-' '
+000-'Invoking: MicroBlaze Print Size'
+000-mb-size pingponghalf.elf  |tee "pingponghalf.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  97300	   1680	   3172	 102152	  18f08	pingponghalf.elf
+000-'Finished building: pingponghalf.elf.size'
+000-' '
+00255-
+14:16:45 Build Finished (took 770ms)
+

@@ -1,0 +1,40 @@
+11:04:49 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\newGenesysDDR\Vitis\0802vitis2\temp_xsdb_launch_script.tcl
+11:04:51 INFO  : XSCT server has started successfully.
+11:04:51 INFO  : Registering command handlers for Vitis TCF services
+11:04:52 INFO  : plnx-install-location is set to ''
+11:04:52 INFO  : Successfully done setting XSCT server connection channel  
+11:04:52 INFO  : Successfully done query RDI_DATADIR 
+11:04:52 INFO  : Successfully done setting workspace for the tool. 
+11:06:40 INFO  : Checking for BSP changes to sync application flags for project '0802V2'...
+11:10:44 INFO  : Checking for BSP changes to sync application flags for project '0802V3'...
+11:10:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:10:59 INFO  : Jtag cable 'Digilent Genesys 2 200300AD1A5DB' is selected.
+11:10:59 INFO  : 'jtag frequency' command is executed.
+11:10:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Genesys 2 200300AD1A5DB" && level==0} -index 0' command is executed.
+11:11:06 INFO  : FPGA configured successfully with bitstream "E:/newGenesysDDR/Vitis/0802vitis2/0802V3/_ide/bitstream/Genesys_wrapper.bit"
+11:11:06 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:11:06 INFO  : Context for processor 'microblaze_0' is selected.
+11:11:06 INFO  : System reset is completed.
+11:11:09 INFO  : 'after 3000' command is executed.
+11:11:09 INFO  : Context for processor 'microblaze_0' is selected.
+11:11:09 INFO  : The application 'E:/newGenesysDDR/Vitis/0802vitis2/0802V3/Debug/0802V3.elf' is downloaded to processor 'microblaze_0'.
+11:11:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Genesys 2 200300AD1A5DB" && level==0} -index 0
+fpga -file E:/newGenesysDDR/Vitis/0802vitis2/0802V3/_ide/bitstream/Genesys_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/newGenesysDDR/Vitis/0802vitis2/0802V3/Debug/0802V3.elf
+----------------End of Script----------------
+
+11:11:09 INFO  : Context for processor 'microblaze_0' is selected.
+11:11:09 INFO  : 'con' command is executed.
+11:11:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:11:09 INFO  : Disconnected from the channel tcfchan#3.

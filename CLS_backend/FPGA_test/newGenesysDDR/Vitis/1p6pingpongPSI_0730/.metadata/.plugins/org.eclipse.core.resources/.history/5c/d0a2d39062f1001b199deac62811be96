@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="pingpongPSI0730" location="E:/newGenesysDDR/Vitis/1p6pingpongPSI_0730/pingpongPSI0730" platform="E:/newGenesysDDR/Vitis/1p6pingpongPSI_0730/Genesys_wrapper/export/Genesys_wrapper/Genesys_wrapper.xpfm" platformUID="xilinx:genesys2::0.0(custom)" systemProject="pingpongPSI0730_system" sysConfig="Genesys_wrapper" runtime="cpp" cpu="standalone_domain" cpuInstance="microblaze_0" os="standalone" mssSignature="b93d50e9a481ea0ba3f9ddef3da1f731">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.957265098" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1597078835" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

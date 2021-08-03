@@ -1,0 +1,263 @@
+13:47:20 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\newGenesysDDR\Vitis\1p4led_0729\temp_xsdb_launch_script.tcl
+13:47:23 INFO  : XSCT server has started successfully.
+13:47:23 INFO  : plnx-install-location is set to ''
+13:47:23 INFO  : Successfully done setting XSCT server connection channel  
+13:47:23 INFO  : Registering command handlers for Vitis TCF services
+13:47:23 INFO  : Successfully done setting workspace for the tool. 
+13:47:23 INFO  : Successfully done query RDI_DATADIR 
+13:48:27 INFO  : Checking for BSP changes to sync application flags for project 'pingpong0729led'...
+13:48:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:48:43 INFO  : Jtag cable 'Digilent Genesys 2 200300AD1A5DB' is selected.
+13:48:43 INFO  : 'jtag frequency' command is executed.
+13:48:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Genesys 2 200300AD1A5DB" && level==0} -index 0' command is executed.
+13:48:51 INFO  : FPGA configured successfully with bitstream "E:/newGenesysDDR/Vitis/1p4led_0729/pingpong0729led/_ide/bitstream/Genesys_wrapper_0729led.bit"
+13:48:51 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:48:52 INFO  : Context for processor 'microblaze_0' is selected.
+13:48:52 INFO  : System reset is completed.
+13:48:55 INFO  : 'after 3000' command is executed.
+13:48:55 INFO  : Context for processor 'microblaze_0' is selected.
+13:48:55 INFO  : The application 'E:/newGenesysDDR/Vitis/1p4led_0729/pingpong0729led/Debug/pingpong0729led.elf' is downloaded to processor 'microblaze_0'.
+13:48:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Genesys 2 200300AD1A5DB" && level==0} -index 0
+fpga -file E:/newGenesysDDR/Vitis/1p4led_0729/pingpong0729led/_ide/bitstream/Genesys_wrapper_0729led.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/newGenesysDDR/Vitis/1p4led_0729/pingpong0729led/Debug/pingpong0729led.elf
+----------------End of Script----------------
+
+13:48:55 INFO  : Context for processor 'microblaze_0' is selected.
+13:48:55 INFO  : 'con' command is executed.
+13:48:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:48:55 INFO  : Disconnected from the channel tcfchan#2.
+13:49:22 INFO  : Checking for BSP changes to sync application flags for project 'pingpong0729led'...
+13:49:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:49:29 INFO  : Jtag cable 'Digilent Genesys 2 200300AD1A5DB' is selected.
+13:49:29 INFO  : 'jtag frequency' command is executed.
+13:49:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Genesys 2 200300AD1A5DB" && level==0} -index 0' command is executed.
+13:49:37 INFO  : FPGA configured successfully with bitstream "E:/newGenesysDDR/Vitis/1p4led_0729/pingpong0729led/_ide/bitstream/Genesys_wrapper_0729led.bit"
+13:49:37 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:49:37 INFO  : Context for processor 'microblaze_0' is selected.
+13:49:37 INFO  : System reset is completed.
+13:49:40 INFO  : 'after 3000' command is executed.
+13:49:40 INFO  : Context for processor 'microblaze_0' is selected.
+13:49:41 INFO  : The application 'E:/newGenesysDDR/Vitis/1p4led_0729/pingpong0729led/Debug/pingpong0729led.elf' is downloaded to processor 'microblaze_0'.
+13:49:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Genesys 2 200300AD1A5DB" && level==0} -index 0
+fpga -file E:/newGenesysDDR/Vitis/1p4led_0729/pingpong0729led/_ide/bitstream/Genesys_wrapper_0729led.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/newGenesysDDR/Vitis/1p4led_0729/pingpong0729led/Debug/pingpong0729led.elf
+----------------End of Script----------------
+
+13:49:41 INFO  : Context for processor 'microblaze_0' is selected.
+13:49:41 INFO  : 'con' command is executed.
+13:49:41 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:49:41 INFO  : Disconnected from the channel tcfchan#3.
+13:49:59 INFO  : Checking for BSP changes to sync application flags for project 'pingpong0729led'...
+13:50:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:50:07 INFO  : Jtag cable 'Digilent Genesys 2 200300AD1A5DB' is selected.
+13:50:07 INFO  : 'jtag frequency' command is executed.
+13:50:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Genesys 2 200300AD1A5DB" && level==0} -index 0' command is executed.
+13:50:15 INFO  : FPGA configured successfully with bitstream "E:/newGenesysDDR/Vitis/1p4led_0729/pingpong0729led/_ide/bitstream/Genesys_wrapper_0729led.bit"
+13:50:15 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:50:16 INFO  : Context for processor 'microblaze_0' is selected.
+13:50:16 INFO  : System reset is completed.
+13:50:19 INFO  : 'after 3000' command is executed.
+13:50:19 INFO  : Context for processor 'microblaze_0' is selected.
+13:50:19 INFO  : The application 'E:/newGenesysDDR/Vitis/1p4led_0729/pingpong0729led/Debug/pingpong0729led.elf' is downloaded to processor 'microblaze_0'.
+13:50:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Genesys 2 200300AD1A5DB" && level==0} -index 0
+fpga -file E:/newGenesysDDR/Vitis/1p4led_0729/pingpong0729led/_ide/bitstream/Genesys_wrapper_0729led.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/newGenesysDDR/Vitis/1p4led_0729/pingpong0729led/Debug/pingpong0729led.elf
+----------------End of Script----------------
+
+13:50:19 INFO  : Context for processor 'microblaze_0' is selected.
+13:50:19 INFO  : 'con' command is executed.
+13:50:19 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:50:19 INFO  : Disconnected from the channel tcfchan#4.
+13:52:47 INFO  : Checking for BSP changes to sync application flags for project 'pingpong0729led'...
+13:52:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:52:54 INFO  : Jtag cable 'Digilent Genesys 2 200300AD1A5DB' is selected.
+13:52:54 INFO  : 'jtag frequency' command is executed.
+13:52:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Genesys 2 200300AD1A5DB" && level==0} -index 0' command is executed.
+13:53:02 INFO  : FPGA configured successfully with bitstream "E:/newGenesysDDR/Vitis/1p4led_0729/pingpong0729led/_ide/bitstream/Genesys_wrapper_0729led.bit"
+13:53:02 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:53:02 INFO  : Context for processor 'microblaze_0' is selected.
+13:53:02 INFO  : System reset is completed.
+13:53:05 INFO  : 'after 3000' command is executed.
+13:53:05 INFO  : Context for processor 'microblaze_0' is selected.
+13:53:06 INFO  : The application 'E:/newGenesysDDR/Vitis/1p4led_0729/pingpong0729led/Debug/pingpong0729led.elf' is downloaded to processor 'microblaze_0'.
+13:53:06 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Genesys 2 200300AD1A5DB" && level==0} -index 0
+fpga -file E:/newGenesysDDR/Vitis/1p4led_0729/pingpong0729led/_ide/bitstream/Genesys_wrapper_0729led.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/newGenesysDDR/Vitis/1p4led_0729/pingpong0729led/Debug/pingpong0729led.elf
+----------------End of Script----------------
+
+13:53:06 INFO  : Context for processor 'microblaze_0' is selected.
+13:53:06 INFO  : 'con' command is executed.
+13:53:06 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:53:06 INFO  : Disconnected from the channel tcfchan#5.
+13:54:42 INFO  : Checking for BSP changes to sync application flags for project 'pingpong0729led'...
+13:54:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:54:48 INFO  : Jtag cable 'Digilent Genesys 2 200300AD1A5DB' is selected.
+13:54:48 INFO  : 'jtag frequency' command is executed.
+13:54:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Genesys 2 200300AD1A5DB" && level==0} -index 0' command is executed.
+13:54:55 INFO  : FPGA configured successfully with bitstream "E:/newGenesysDDR/Vitis/1p4led_0729/pingpong0729led/_ide/bitstream/Genesys_wrapper_0729led.bit"
+13:54:55 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:54:56 INFO  : Context for processor 'microblaze_0' is selected.
+13:54:56 INFO  : System reset is completed.
+13:54:59 INFO  : 'after 3000' command is executed.
+13:54:59 INFO  : Context for processor 'microblaze_0' is selected.
+13:55:00 INFO  : The application 'E:/newGenesysDDR/Vitis/1p4led_0729/pingpong0729led/Debug/pingpong0729led.elf' is downloaded to processor 'microblaze_0'.
+13:55:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Genesys 2 200300AD1A5DB" && level==0} -index 0
+fpga -file E:/newGenesysDDR/Vitis/1p4led_0729/pingpong0729led/_ide/bitstream/Genesys_wrapper_0729led.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/newGenesysDDR/Vitis/1p4led_0729/pingpong0729led/Debug/pingpong0729led.elf
+----------------End of Script----------------
+
+13:55:00 INFO  : Context for processor 'microblaze_0' is selected.
+13:55:00 INFO  : 'con' command is executed.
+13:55:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:55:00 INFO  : Disconnected from the channel tcfchan#6.
+13:55:13 INFO  : Checking for BSP changes to sync application flags for project 'pingpong0729led'...
+13:55:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:55:19 INFO  : Jtag cable 'Digilent Genesys 2 200300AD1A5DB' is selected.
+13:55:19 INFO  : 'jtag frequency' command is executed.
+13:55:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Genesys 2 200300AD1A5DB" && level==0} -index 0' command is executed.
+13:55:27 INFO  : FPGA configured successfully with bitstream "E:/newGenesysDDR/Vitis/1p4led_0729/pingpong0729led/_ide/bitstream/Genesys_wrapper_0729led.bit"
+13:55:27 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:55:27 INFO  : Context for processor 'microblaze_0' is selected.
+13:55:27 INFO  : System reset is completed.
+13:55:30 INFO  : 'after 3000' command is executed.
+13:55:30 INFO  : Context for processor 'microblaze_0' is selected.
+13:55:31 INFO  : The application 'E:/newGenesysDDR/Vitis/1p4led_0729/pingpong0729led/Debug/pingpong0729led.elf' is downloaded to processor 'microblaze_0'.
+13:55:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Genesys 2 200300AD1A5DB" && level==0} -index 0
+fpga -file E:/newGenesysDDR/Vitis/1p4led_0729/pingpong0729led/_ide/bitstream/Genesys_wrapper_0729led.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/newGenesysDDR/Vitis/1p4led_0729/pingpong0729led/Debug/pingpong0729led.elf
+----------------End of Script----------------
+
+13:55:31 INFO  : Context for processor 'microblaze_0' is selected.
+13:55:31 INFO  : 'con' command is executed.
+13:55:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:55:31 INFO  : Disconnected from the channel tcfchan#7.
+13:56:02 INFO  : Checking for BSP changes to sync application flags for project 'pingpong0729led'...
+13:56:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:56:09 INFO  : Jtag cable 'Digilent Genesys 2 200300AD1A5DB' is selected.
+13:56:09 INFO  : 'jtag frequency' command is executed.
+13:56:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Genesys 2 200300AD1A5DB" && level==0} -index 0' command is executed.
+13:56:16 INFO  : FPGA configured successfully with bitstream "E:/newGenesysDDR/Vitis/1p4led_0729/pingpong0729led/_ide/bitstream/Genesys_wrapper_0729led.bit"
+13:56:16 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:56:17 INFO  : Context for processor 'microblaze_0' is selected.
+13:56:17 INFO  : System reset is completed.
+13:56:20 INFO  : 'after 3000' command is executed.
+13:56:20 INFO  : Context for processor 'microblaze_0' is selected.
+13:56:21 INFO  : The application 'E:/newGenesysDDR/Vitis/1p4led_0729/pingpong0729led/Debug/pingpong0729led.elf' is downloaded to processor 'microblaze_0'.
+13:56:21 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Genesys 2 200300AD1A5DB" && level==0} -index 0
+fpga -file E:/newGenesysDDR/Vitis/1p4led_0729/pingpong0729led/_ide/bitstream/Genesys_wrapper_0729led.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/newGenesysDDR/Vitis/1p4led_0729/pingpong0729led/Debug/pingpong0729led.elf
+----------------End of Script----------------
+
+13:56:21 INFO  : Context for processor 'microblaze_0' is selected.
+13:56:21 INFO  : 'con' command is executed.
+13:56:21 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:56:21 INFO  : Disconnected from the channel tcfchan#8.
+13:56:49 INFO  : Checking for BSP changes to sync application flags for project 'pingpong0729led'...
+13:56:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:56:55 INFO  : Jtag cable 'Digilent Genesys 2 200300AD1A5DB' is selected.
+13:56:55 INFO  : 'jtag frequency' command is executed.
+13:56:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Genesys 2 200300AD1A5DB" && level==0} -index 0' command is executed.
+13:57:03 INFO  : FPGA configured successfully with bitstream "E:/newGenesysDDR/Vitis/1p4led_0729/pingpong0729led/_ide/bitstream/Genesys_wrapper_0729led.bit"
+13:57:03 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:57:03 INFO  : Context for processor 'microblaze_0' is selected.
+13:57:03 INFO  : System reset is completed.
+13:57:06 INFO  : 'after 3000' command is executed.
+13:57:06 INFO  : Context for processor 'microblaze_0' is selected.
+13:57:07 INFO  : The application 'E:/newGenesysDDR/Vitis/1p4led_0729/pingpong0729led/Debug/pingpong0729led.elf' is downloaded to processor 'microblaze_0'.
+13:57:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Genesys 2 200300AD1A5DB" && level==0} -index 0
+fpga -file E:/newGenesysDDR/Vitis/1p4led_0729/pingpong0729led/_ide/bitstream/Genesys_wrapper_0729led.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/newGenesysDDR/Vitis/1p4led_0729/pingpong0729led/Debug/pingpong0729led.elf
+----------------End of Script----------------
+
+13:57:07 INFO  : Context for processor 'microblaze_0' is selected.
+13:57:07 INFO  : 'con' command is executed.
+13:57:07 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:57:07 INFO  : Disconnected from the channel tcfchan#9.

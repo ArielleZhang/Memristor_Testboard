@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="E:\newGenesysDDR\Vitis\1p0\Genesys_wrapper_1\bitstream" key="debug_files_selection"/>
+	<item value="E:\newGenesysDDR\platform_pingpongclk" key="scw_hwspec"/>
+</section>

@@ -1,0 +1,34 @@
+2021-08-03T11:06:40.398617500255-11:06:40 **** Build of configuration Debug for project 0802V2 ****
+000-make all 
+000-'Building file: ../src/helloworld.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IE:/newGenesysDDR/Vitis/0802vitis2/Genesys_wrapper/export/Genesys_wrapper/sw/Genesys_wrapper/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+000-../src/helloworld.c: In function 'main':
+000/0802V2/src/helloworld.c71-1-1format '%ld' expects argument of type 'long int', but argument 2 has type 'unsigned int' [-Wformat=]1-../src/helloworld.c:71:27: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'unsigned int' [-Wformat=]
+000-     printf("the HALF is %ld\n", *HALF);
+000-                         ~~^     ~~~~~
+000-                         %d
+000/0802V2/src/helloworld.c78-1-1unused variable 'b' [-Wunused-variable]1-../src/helloworld.c:78:9: warning: unused variable 'b' [-Wunused-variable]
+000-     int b = 0xAAA; //101010101010
+000-         ^
+000-'Finished building: ../src/helloworld.c'
+000-' '
+000-'Building file: ../src/platform.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IE:/newGenesysDDR/Vitis/0802vitis2/Genesys_wrapper/export/Genesys_wrapper/sw/Genesys_wrapper/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+000-'Finished building: ../src/platform.c'
+000-' '
+000-'Building target: 0802V2.elf'
+000-'Invoking: MicroBlaze gcc linker'
+000-mb-gcc -Wl,-T -Wl,../src/lscript.ld -LE:/newGenesysDDR/Vitis/0802vitis2/Genesys_wrapper/export/Genesys_wrapper/sw/Genesys_wrapper/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "0802V2.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: 0802V2.elf'
+000-' '
+000-'Invoking: MicroBlaze Print Size'
+000-mb-size 0802V2.elf  |tee "0802V2.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  97344	   1684	   3172	 102200	  18f38	0802V2.elf
+000-'Finished building: 0802V2.elf.size'
+000-' '
+00255-
+11:06:41 Build Finished (took 731ms)
+

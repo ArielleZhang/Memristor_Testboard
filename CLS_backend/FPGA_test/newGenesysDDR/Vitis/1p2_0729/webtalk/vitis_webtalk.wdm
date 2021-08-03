@@ -1,0 +1,42 @@
+version = "1.0";
+clients =
+(
+	{ client_name = "project"; 
+		rules = (
+			{
+				context="software_version_and_target_device";
+				xml_map="software_version_and_target_device";
+				html_map="software_version_and_target_device";
+				html_format="UserEnvStyle";
+			},
+			{
+				context="user_environment";
+				xml_map="user_environment";
+				html_map="user_environment";
+				html_format="UserEnvStyle";
+			}
+		);
+     },
+	{ client_name = "vitis"; 
+		rules = (
+			{
+				context="vitis\\\\platform/1627571321466";
+				xml_map="vitis\\\\platform/1627571321466";
+				html_map="vitis\\\\platform/1627571321466";
+				html_format="UnisimStatsStyle";
+			},
+			{
+				context="vitis\\\\platform/1627580637017";
+				xml_map="vitis\\\\platform/1627580637017";
+				html_map="vitis\\\\platform/1627580637017";
+				html_format="UnisimStatsStyle";
+			},
+			{
+				context="vitis\\\\tool/1627580807974";
+				xml_map="vitis\\\\tool/1627580807974";
+				html_map="vitis\\\\tool/1627580807974";
+				html_format="UnisimStatsStyle";
+			}
+		);
+     }
+);

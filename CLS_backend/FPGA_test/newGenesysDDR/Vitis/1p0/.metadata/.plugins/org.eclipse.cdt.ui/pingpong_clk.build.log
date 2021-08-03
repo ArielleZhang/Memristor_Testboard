@@ -1,0 +1,26 @@
+13:37:19 **** Incremental Build of configuration Debug for project pingpong_clk ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IE:/newGenesysDDR/Vitis/1p0/Genesys_wrapper/export/Genesys_wrapper/sw/Genesys_wrapper/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:71:33: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'volatile unsigned int *' [-Wformat=]
+     printf("the input HALF is %ld\n", HALF);
+                               ~~^     ~~~~
+                               %ls
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pingpong_clk.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LE:/newGenesysDDR/Vitis/1p0/Genesys_wrapper/export/Genesys_wrapper/sw/Genesys_wrapper/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "pingpong_clk.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pingpong_clk.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size pingpong_clk.elf  |tee "pingpong_clk.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  97324	   1680	   3172	 102176	  18f20	pingpong_clk.elf
+'Finished building: pingpong_clk.elf.size'
+' '
+
+13:37:20 Build Finished (took 987ms)
+

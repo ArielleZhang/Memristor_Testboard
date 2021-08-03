@@ -1,0 +1,17 @@
+09:30:08 **** Build of configuration Debug for project 0802V2 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IE:/newGenesysDDR/Vitis/0802vitis1/Genesys_wrapper_1/export/Genesys_wrapper_1/sw/Genesys_wrapper_1/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:66:6: error: 'HALF' undeclared (first use in this function)
+     *HALF = 50000000/frequency;
+      ^~~~
+../src/helloworld.c:66:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:77:9: warning: unused variable 'b' [-Wunused-variable]
+     int b = 0xAAA; //101010101010
+         ^
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+
+09:30:10 Build Finished (took 2s.44ms)
+

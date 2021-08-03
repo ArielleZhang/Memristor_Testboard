@@ -1,0 +1,105 @@
+16:59:03 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\xujia\Genesys\Vitis\temp_xsdb_launch_script.tcl
+16:59:11 INFO  : XSCT server has started successfully.
+16:59:11 INFO  : plnx-install-location is set to ''
+16:59:11 INFO  : Successfully done setting XSCT server connection channel  
+16:59:16 INFO  : Registering command handlers for Vitis TCF services
+16:59:16 INFO  : Successfully done setting workspace for the tool. 
+16:59:17 INFO  : Successfully done query RDI_DATADIR 
+17:02:32 INFO  : Checking for BSP changes to sync application flags for project 'DDR'...
+17:02:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Genesys 2 200300AD1A5DB" && level==0} -index 0' command is executed.
+17:02:45 INFO  : 'fpga -state' command is executed.
+17:02:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:02:46 INFO  : Jtag cable 'Digilent Genesys 2 200300AD1A5DB' is selected.
+17:02:46 INFO  : 'jtag frequency' command is executed.
+17:02:46 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:02:46 INFO  : Context for processor 'microblaze_0' is selected.
+17:02:46 INFO  : System reset is completed.
+17:02:49 INFO  : 'after 3000' command is executed.
+17:02:49 INFO  : Context for processor 'microblaze_0' is selected.
+17:02:49 INFO  : The application 'C:/Users/xujia/Genesys/Vitis/DDR/Debug/DDR.elf' is downloaded to processor 'microblaze_0'.
+17:02:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/xujia/Genesys/Vitis/DDR/Debug/DDR.elf
+----------------End of Script----------------
+
+17:02:49 INFO  : Memory regions updated for context MicroBlaze #0
+17:02:49 INFO  : Memory regions updated for context MicroBlaze #0
+17:02:49 INFO  : Context for processor 'microblaze_0' is selected.
+17:02:49 INFO  : 'con' command is executed.
+17:02:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:02:49 INFO  : Launch script is exported to file 'C:\Users\xujia\Genesys\Vitis\.sdk\launch_scripts\single_application_debug\debugger_ddr-default.tcl'
+17:03:05 INFO  : Disconnected from the channel tcfchan#2.
+17:03:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Genesys 2 200300AD1A5DB" && level==0} -index 0' command is executed.
+17:03:06 INFO  : 'fpga -state' command is executed.
+17:03:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:03:07 INFO  : Jtag cable 'Digilent Genesys 2 200300AD1A5DB' is selected.
+17:03:07 INFO  : 'jtag frequency' command is executed.
+17:03:07 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:03:07 INFO  : Context for processor 'microblaze_0' is selected.
+17:03:07 INFO  : System reset is completed.
+17:03:10 INFO  : 'after 3000' command is executed.
+17:03:10 INFO  : Context for processor 'microblaze_0' is selected.
+17:03:10 INFO  : The application 'C:/Users/xujia/Genesys/Vitis/DDR/Debug/DDR.elf' is downloaded to processor 'microblaze_0'.
+17:03:10 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/xujia/Genesys/Vitis/DDR/Debug/DDR.elf
+----------------End of Script----------------
+
+17:03:10 INFO  : Memory regions updated for context MicroBlaze #0
+17:03:10 INFO  : Memory regions updated for context MicroBlaze #0
+17:03:10 INFO  : Context for processor 'microblaze_0' is selected.
+17:03:10 INFO  : 'con' command is executed.
+17:03:10 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:03:10 INFO  : Launch script is exported to file 'C:\Users\xujia\Genesys\Vitis\.sdk\launch_scripts\single_application_debug\debugger_ddr-default.tcl'
+17:17:37 INFO  : Checking for BSP changes to sync application flags for project 'DDR'...
+17:17:45 INFO  : Disconnected from the channel tcfchan#3.
+17:17:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Genesys 2 200300AD1A5DB" && level==0} -index 0' command is executed.
+17:17:46 INFO  : 'fpga -state' command is executed.
+17:17:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:17:46 INFO  : Jtag cable 'Digilent Genesys 2 200300AD1A5DB' is selected.
+17:17:46 INFO  : 'jtag frequency' command is executed.
+17:17:46 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:17:46 INFO  : Context for processor 'microblaze_0' is selected.
+17:17:46 INFO  : System reset is completed.
+17:17:49 INFO  : 'after 3000' command is executed.
+17:17:49 INFO  : Context for processor 'microblaze_0' is selected.
+17:17:49 INFO  : The application 'C:/Users/xujia/Genesys/Vitis/DDR/Debug/DDR.elf' is downloaded to processor 'microblaze_0'.
+17:17:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/xujia/Genesys/Vitis/DDR/Debug/DDR.elf
+----------------End of Script----------------
+
+17:17:49 INFO  : Memory regions updated for context MicroBlaze #0
+17:17:49 INFO  : Memory regions updated for context MicroBlaze #0
+17:17:50 INFO  : Context for processor 'microblaze_0' is selected.
+17:17:50 INFO  : 'con' command is executed.
+17:17:50 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:17:50 INFO  : Launch script is exported to file 'C:\Users\xujia\Genesys\Vitis\.sdk\launch_scripts\single_application_debug\debugger_ddr-default.tcl'
+17:17:55 INFO  : Disconnected from the channel tcfchan#4.

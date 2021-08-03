@@ -1,0 +1,5 @@
+Nothing to build in platform 'Genesys_wrapper_1'
+
+13:55:46 **** Incremental Build of configuration Debug for project pingpong_half ****
+make all 
+make: Nothing to be done for 'all'.

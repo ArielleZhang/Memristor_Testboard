@@ -1,0 +1,40 @@
+16:50:53 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\newGenesysDDR\Vitis\1p5pingpongPSI_0729\temp_xsdb_launch_script.tcl
+16:50:55 INFO  : XSCT server has started successfully.
+16:50:55 INFO  : Registering command handlers for Vitis TCF services
+16:50:56 INFO  : plnx-install-location is set to ''
+16:50:56 INFO  : Successfully done setting XSCT server connection channel  
+16:50:56 INFO  : Successfully done query RDI_DATADIR 
+16:50:56 INFO  : Successfully done setting workspace for the tool. 
+16:57:05 INFO  : Checking for BSP changes to sync application flags for project 'pingpongDACPSI'...
+16:59:07 INFO  : Checking for BSP changes to sync application flags for project 'pingpongDACPSI'...
+16:59:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:59:30 INFO  : Jtag cable 'Digilent Genesys 2 200300AD1A5DB' is selected.
+16:59:30 INFO  : 'jtag frequency' command is executed.
+16:59:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Genesys 2 200300AD1A5DB" && level==0} -index 0' command is executed.
+16:59:39 INFO  : FPGA configured successfully with bitstream "E:/newGenesysDDR/Vitis/1p5pingpongPSI_0729/pingpongDACPSI/_ide/bitstream/Genesys_wrapper.bit"
+16:59:39 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:59:39 INFO  : Context for processor 'microblaze_0' is selected.
+16:59:39 INFO  : System reset is completed.
+16:59:42 INFO  : 'after 3000' command is executed.
+16:59:42 INFO  : Context for processor 'microblaze_0' is selected.
+16:59:43 INFO  : The application 'E:/newGenesysDDR/Vitis/1p5pingpongPSI_0729/pingpongDACPSI/Debug/pingpongDACPSI.elf' is downloaded to processor 'microblaze_0'.
+16:59:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Genesys 2 200300AD1A5DB" && level==0} -index 0
+fpga -file E:/newGenesysDDR/Vitis/1p5pingpongPSI_0729/pingpongDACPSI/_ide/bitstream/Genesys_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/newGenesysDDR/Vitis/1p5pingpongPSI_0729/pingpongDACPSI/Debug/pingpongDACPSI.elf
+----------------End of Script----------------
+
+16:59:43 INFO  : Context for processor 'microblaze_0' is selected.
+16:59:43 INFO  : 'con' command is executed.
+16:59:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:59:43 INFO  : Disconnected from the channel tcfchan#2.

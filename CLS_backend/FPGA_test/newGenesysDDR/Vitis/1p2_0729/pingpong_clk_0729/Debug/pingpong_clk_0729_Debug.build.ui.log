@@ -1,0 +1,31 @@
+2021-07-29T13:45:44.244642100255-13:45:44 **** Build of configuration Debug for project pingpong_clk_0729 ****
+000-make all 
+000-'Building file: ../src/helloworld.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IE:/newGenesysDDR/Vitis/1p2_0729/1p40729led/export/1p40729led/sw/1p40729led/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+000-../src/helloworld.c: In function 'main':
+000/pingpong_clk_0729/src/helloworld.c69-1-1format '%ld' expects argument of type 'long int', but argument 2 has type 'unsigned int' [-Wformat=]1-../src/helloworld.c:69:27: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'unsigned int' [-Wformat=]
+000-     printf("the HALF is %ld\n", *HALF);
+000-                         ~~^     ~~~~~
+000-                         %d
+000-'Finished building: ../src/helloworld.c'
+000-' '
+000-'Building file: ../src/platform.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IE:/newGenesysDDR/Vitis/1p2_0729/1p40729led/export/1p40729led/sw/1p40729led/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+000-'Finished building: ../src/platform.c'
+000-' '
+000-'Building target: pingpong_clk_0729.elf'
+000-'Invoking: MicroBlaze gcc linker'
+000-mb-gcc -Wl,-T -Wl,../src/lscript.ld -LE:/newGenesysDDR/Vitis/1p2_0729/1p40729led/export/1p40729led/sw/1p40729led/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "pingpong_clk_0729.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: pingpong_clk_0729.elf'
+000-' '
+000-'Invoking: MicroBlaze Print Size'
+000-mb-size pingpong_clk_0729.elf  |tee "pingpong_clk_0729.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  97300	   1680	   3172	 102152	  18f08	pingpong_clk_0729.elf
+000-'Finished building: pingpong_clk_0729.elf.size'
+000-' '
+00255-
+13:45:44 Build Finished (took 543ms)
+

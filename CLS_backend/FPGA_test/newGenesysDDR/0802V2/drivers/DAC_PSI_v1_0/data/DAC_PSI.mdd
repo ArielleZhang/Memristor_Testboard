@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER DAC_PSI
+	OPTION supported_peripherals = (DAC_PSI);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = DAC_PSI;
+END DRIVER

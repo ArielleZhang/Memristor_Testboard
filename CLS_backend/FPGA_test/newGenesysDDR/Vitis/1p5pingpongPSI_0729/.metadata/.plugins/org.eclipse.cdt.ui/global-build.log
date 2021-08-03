@@ -1,0 +1,25 @@
+Nothing to build in platform 'Genesys_wrapper'
+
+16:59:07 **** Incremental Build of configuration Debug for project pingpongDACPSI ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IE:/newGenesysDDR/Vitis/1p5pingpongPSI_0729/Genesys_wrapper/export/Genesys_wrapper/sw/Genesys_wrapper/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:68:27: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'unsigned int' [-Wformat=]
+     printf("the HALF is %ld\n", *HALF);
+                         ~~^     ~~~~~
+                         %d
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pingpongDACPSI.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LE:/newGenesysDDR/Vitis/1p5pingpongPSI_0729/Genesys_wrapper/export/Genesys_wrapper/sw/Genesys_wrapper/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "pingpongDACPSI.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pingpongDACPSI.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size pingpongDACPSI.elf  |tee "pingpongDACPSI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  97300	   1680	   3172	 102152	  18f08	pingpongDACPSI.elf
+'Finished building: pingpongDACPSI.elf.size'
+' '

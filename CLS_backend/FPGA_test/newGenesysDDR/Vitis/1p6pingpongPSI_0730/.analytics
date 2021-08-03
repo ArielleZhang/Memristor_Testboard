@@ -1,0 +1,8 @@
+timestamp=[2021-07-30 12:26:46], mode=WORKBENCH_START, duration=0:00:05.482, duration_ms=5482, data={}
+timestamp=[2021-07-30 12:26:47], mode=WORKBENCH_UI_INIT, duration=0:00:00.846, duration_ms=846, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2021-07-30 12:27:40], mode=APP_CREATION, duration=0:00:09.871, duration_ms=9871, data={name=pingpongPSI0730, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=Genesys_wrapper, application_type=application}
+timestamp=[2021-07-30 14:14:33], mode=WORKBENCH_START, duration=0:00:23.316, duration_ms=23316, data={}
+timestamp=[2021-07-30 14:14:34], mode=WORKBENCH_UI_INIT, duration=0:00:00.880, duration_ms=880, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Genesys_wrapper,RemoteSystemsTempFiles,pingpongPSI0730,pingpongPSI0730_system}
+timestamp=[2021-07-30 14:18:27], mode=PLATFORM_GENERATION, duration=0:02:05.600, duration_ms=125600, data={name=Genesys_wrapper}
+timestamp=[2021-07-30 20:05:30], mode=APP_CREATION, duration=0:00:04.768, duration_ms=4768, data={name=0730DACdriver_pingpong_SPI, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=Genesys_wrapper_1, application_type=application}
+timestamp=[2021-07-30 20:06:39], mode=PLATFORM_GENERATION, duration=0:00:06.536, duration_ms=6536, data={name=Genesys_wrapper_1}

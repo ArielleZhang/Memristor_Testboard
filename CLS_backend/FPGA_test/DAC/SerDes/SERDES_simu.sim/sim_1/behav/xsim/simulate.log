@@ -1,0 +1,3 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+$finish called at time : 121 ps : File "E:/Memristor_testboard/FPGA_test/DAC/SerDes/SERDES_simu.srcs/sim_1/new/tb_serializer.v" Line 84

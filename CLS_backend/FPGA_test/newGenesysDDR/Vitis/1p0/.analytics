@@ -1,0 +1,6 @@
+timestamp=[2021-07-28 10:21:00], mode=WORKBENCH_START, duration=0:00:05.522, duration_ms=5522, data={}
+timestamp=[2021-07-28 10:21:00], mode=WORKBENCH_UI_INIT, duration=0:00:00.486, duration_ms=486, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2021-07-28 10:22:29], mode=APP_CREATION, duration=0:00:20.924, duration_ms=20924, data={name=pingpong_clk, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=Genesys_wrapper, application_type=application}
+timestamp=[2021-07-28 11:45:06], mode=PLATFORM_GENERATION, duration=0:01:26.913, duration_ms=86913, data={name=Genesys_wrapper}
+timestamp=[2021-07-28 13:41:47], mode=APP_CREATION, duration=0:00:05.136, duration_ms=5136, data={name=pingpong_half, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=Genesys_wrapper_1, application_type=application}
+timestamp=[2021-07-28 13:43:04], mode=PLATFORM_GENERATION, duration=0:00:09.733, duration_ms=9733, data={name=Genesys_wrapper_1}

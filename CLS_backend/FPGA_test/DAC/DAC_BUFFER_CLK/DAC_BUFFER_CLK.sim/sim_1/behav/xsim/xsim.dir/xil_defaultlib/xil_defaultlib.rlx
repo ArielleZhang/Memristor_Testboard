@@ -1,0 +1,7 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+E:/Memristor_testboard/FPGA_test/DAC/DAC_BUFFER_CLK/DAC_BUFFER_CLK.sim/sim_1/behav/xsim/glbl.v,1624916270,verilog,,,,glbl,,,,,,,,
+E:/Memristor_testboard/FPGA_test/DAC/DAC_BUFFER_CLK/DAC_BUFFER_CLK.srcs/sim_1/new/Buffer_clk.v,1627572719,verilog,,,,Buffer_clk_test,,,,,,,,
+E:/Memristor_testboard/FPGA_test/DAC/DAC_BUFFER_CLK/DAC_BUFFER_CLK.srcs/sources_1/new/BUFFERCLK.v,1627571653,verilog,,E:/Memristor_testboard/FPGA_test/DAC/DAC_BUFFER_CLK/DAC_BUFFER_CLK.srcs/sim_1/new/Buffer_clk.v,,Pingpong_buffer_clk,,,,,,,,

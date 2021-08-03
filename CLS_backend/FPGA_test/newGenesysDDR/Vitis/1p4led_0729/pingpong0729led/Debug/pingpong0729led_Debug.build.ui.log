@@ -1,0 +1,26 @@
+2021-07-29T13:56:49.839352400255-13:56:49 **** Incremental Build of configuration Debug for project pingpong0729led ****
+000-make all 
+000-'Building file: ../src/helloworld.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IE:/newGenesysDDR/Vitis/1p4led_0729/Genesys_wrapper_0729led/export/Genesys_wrapper_0729led/sw/Genesys_wrapper_0729led/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+000-../src/helloworld.c: In function 'main':
+000/pingpong0729led/src/helloworld.c69-1-1format '%ld' expects argument of type 'long int', but argument 2 has type 'unsigned int' [-Wformat=]1-../src/helloworld.c:69:27: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'unsigned int' [-Wformat=]
+000-     printf("the HALF is %ld\n", *HALF);
+000-                         ~~^     ~~~~~
+000-                         %d
+000-'Finished building: ../src/helloworld.c'
+000-' '
+000-'Building target: pingpong0729led.elf'
+000-'Invoking: MicroBlaze gcc linker'
+000-mb-gcc -Wl,-T -Wl,../src/lscript.ld -LE:/newGenesysDDR/Vitis/1p4led_0729/Genesys_wrapper_0729led/export/Genesys_wrapper_0729led/sw/Genesys_wrapper_0729led/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "pingpong0729led.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: pingpong0729led.elf'
+000-' '
+000-'Invoking: MicroBlaze Print Size'
+000-mb-size pingpong0729led.elf  |tee "pingpong0729led.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  97284	   1676	   3176	 102136	  18ef8	pingpong0729led.elf
+000-'Finished building: pingpong0729led.elf.size'
+000-' '
+00255-
+13:56:50 Build Finished (took 420ms)
+

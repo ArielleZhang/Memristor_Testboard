@@ -1,0 +1,28 @@
+Nothing to build in platform 'Genesys_wrapper_1'
+
+20:28:43 **** Incremental Build of configuration Debug for project 0730DACdriver_pingpong_SPI ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IE:/newGenesysDDR/Vitis/1p6pingpongPSI_0730/Genesys_wrapper_1/export/Genesys_wrapper_1/sw/Genesys_wrapper_1/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:70:27: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'unsigned int' [-Wformat=]
+     printf("the HALF is %ld\n", *HALF);
+                         ~~^     ~~~~~
+                         %d
+../src/helloworld.c:77:9: warning: unused variable 'b' [-Wunused-variable]
+     int b = 0xAAA; //101010101010
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: 0730DACdriver_pingpong_SPI.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LE:/newGenesysDDR/Vitis/1p6pingpongPSI_0730/Genesys_wrapper_1/export/Genesys_wrapper_1/sw/Genesys_wrapper_1/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "0730DACdriver_pingpong_SPI.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: 0730DACdriver_pingpong_SPI.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size 0730DACdriver_pingpong_SPI.elf  |tee "0730DACdriver_pingpong_SPI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  97344	   1684	   3172	 102200	  18f38	0730DACdriver_pingpong_SPI.elf
+'Finished building: 0730DACdriver_pingpong_SPI.elf.size'
+' '

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="pingpong0729led" location="E:/newGenesysDDR/Vitis/1p4led_0729/pingpong0729led" platform="E:/newGenesysDDR/Vitis/1p4led_0729/Genesys_wrapper_0729led/export/Genesys_wrapper_0729led/Genesys_wrapper_0729led.xpfm" platformUID="xilinx:genesys2::0.0(custom)" systemProject="pingpong0729led_system" sysConfig="Genesys_wrapper_0729led" runtime="cpp" cpu="standalone_domain" cpuInstance="microblaze_0" os="standalone" mssSignature="58f496ab3952a4006bd6e50bab743cac">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.1376338206">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.2004312730" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

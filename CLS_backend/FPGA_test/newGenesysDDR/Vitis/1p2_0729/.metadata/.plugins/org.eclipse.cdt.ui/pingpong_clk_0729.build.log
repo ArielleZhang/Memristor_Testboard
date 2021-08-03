@@ -1,0 +1,31 @@
+13:45:44 **** Build of configuration Debug for project pingpong_clk_0729 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IE:/newGenesysDDR/Vitis/1p2_0729/1p40729led/export/1p40729led/sw/1p40729led/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:69:27: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'unsigned int' [-Wformat=]
+     printf("the HALF is %ld\n", *HALF);
+                         ~~^     ~~~~~
+                         %d
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IE:/newGenesysDDR/Vitis/1p2_0729/1p40729led/export/1p40729led/sw/1p40729led/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: pingpong_clk_0729.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LE:/newGenesysDDR/Vitis/1p2_0729/1p40729led/export/1p40729led/sw/1p40729led/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "pingpong_clk_0729.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pingpong_clk_0729.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size pingpong_clk_0729.elf  |tee "pingpong_clk_0729.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  97300	   1680	   3172	 102152	  18f08	pingpong_clk_0729.elf
+'Finished building: pingpong_clk_0729.elf.size'
+' '
+
+13:45:44 Build Finished (took 543ms)
+

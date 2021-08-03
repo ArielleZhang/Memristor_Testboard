@@ -1,4 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Memristor_testboard/FPGA_test/ADC/ADC_SerDes/ADC_SerDes.srcs/sources_1/new/ADC_CLK.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module ADC_CLK
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Memristor_testboard/FPGA_test/ADC/ADC_SerDes/ADC_SerDes.srcs/sim_1/new/ADC_CLK_tb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module ADC_CLK_tb

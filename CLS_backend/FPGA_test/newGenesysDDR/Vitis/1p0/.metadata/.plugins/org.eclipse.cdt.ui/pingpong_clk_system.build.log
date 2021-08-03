@@ -1,0 +1,6 @@
+13:37:21 **** Build of configuration Debug for project pingpong_clk_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+
+13:37:21 Build Finished (took 163ms)
+
