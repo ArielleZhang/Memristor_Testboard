@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Memristor_testboard/CLS_frontend/stimrec_simu2/stimrec_simu2.srcs/sources_1/new/stimrec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module stimrec
+INFO: [VRFC 10-311] analyzing module data
+INFO: [VRFC 10-311] analyzing module PSI
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Memristor_testboard/CLS_frontend/stimrec_simu2/stimrec_simu2.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb

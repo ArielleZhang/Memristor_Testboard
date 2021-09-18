@@ -1,0 +1,324 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri Jul 30 20:37:12 2021
+# Process ID: 12080
+# Current directory: E:/Memristor_testboard/FPGA_test/DAC_PSI_platform/ip_repo/edit_DAC_PSI_v1_0.runs/synth_1
+# Command line: vivado.exe -log DAC_PSI_v1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source DAC_PSI_v1_0.tcl
+# Log file: E:/Memristor_testboard/FPGA_test/DAC_PSI_platform/ip_repo/edit_DAC_PSI_v1_0.runs/synth_1/DAC_PSI_v1_0.vds
+# Journal file: E:/Memristor_testboard/FPGA_test/DAC_PSI_platform/ip_repo/edit_DAC_PSI_v1_0.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source DAC_PSI_v1_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/CLS_frontend/AxiIPs/16bitsDAC_driver/ip_repo/DAC_driver_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Memristor_testboard/FPGA_test/DAC_PSI_platform/ip_repo/DAC_PSI_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/programs/Xilinx2019.2/Vivado/2019.2/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is e:/Memristor_testboard/FPGA_test/DAC_PSI_platform/ip_repo/edit_DAC_PSI_v1_0.cache/ip 
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [E:/Memristor_testboard/FPGA_test/DAC_PSI_platform/ip_repo/DAC_PSI_1.0/hdl/DAC_PSI_v1_0_S00_AXI.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [E:/Memristor_testboard/FPGA_test/DAC_PSI_platform/ip_repo/DAC_PSI_1.0/hdl/DAC_PSI_v1_0.v:]
+Command: synth_design -top DAC_PSI_v1_0 -part xc7k325tffg900-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 17520 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 733.348 ; gain = 240.004
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'DAC_PSI_v1_0' [E:/Memristor_testboard/FPGA_test/DAC_PSI_platform/ip_repo/DAC_PSI_1.0/hdl/DAC_PSI_v1_0.v:4]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'DAC_PSI_v1_0_S00_AXI' [E:/Memristor_testboard/FPGA_test/DAC_PSI_platform/ip_repo/DAC_PSI_1.0/hdl/DAC_PSI_v1_0_S00_AXI.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 1 - type: integer 
+INFO: [Synth 8-226] default block is never used [E:/Memristor_testboard/FPGA_test/DAC_PSI_platform/ip_repo/DAC_PSI_1.0/hdl/DAC_PSI_v1_0_S00_AXI.v:238]
+INFO: [Synth 8-226] default block is never used [E:/Memristor_testboard/FPGA_test/DAC_PSI_platform/ip_repo/DAC_PSI_1.0/hdl/DAC_PSI_v1_0_S00_AXI.v:379]
+INFO: [Synth 8-6157] synthesizing module 'PSI_module' [E:/Memristor_testboard/FPGA_test/DAC_PSI_platform/ip_repo/DAC_PSI_1.0/hdl/DAC_PSI_v1_0_S00_AXI.v:611]
+INFO: [Synth 8-6155] done synthesizing module 'PSI_module' (1#1) [E:/Memristor_testboard/FPGA_test/DAC_PSI_platform/ip_repo/DAC_PSI_1.0/hdl/DAC_PSI_v1_0_S00_AXI.v:611]
+WARNING: [Synth 8-689] width (4) of port connection 'counter' does not match port width (1) of module 'PSI_module' [E:/Memristor_testboard/FPGA_test/DAC_PSI_platform/ip_repo/DAC_PSI_1.0/hdl/DAC_PSI_v1_0_S00_AXI.v:521]
+WARNING: [Synth 8-689] width (4) of port connection 'counter' does not match port width (1) of module 'PSI_module' [E:/Memristor_testboard/FPGA_test/DAC_PSI_platform/ip_repo/DAC_PSI_1.0/hdl/DAC_PSI_v1_0_S00_AXI.v:522]
+WARNING: [Synth 8-689] width (4) of port connection 'counter' does not match port width (1) of module 'PSI_module' [E:/Memristor_testboard/FPGA_test/DAC_PSI_platform/ip_repo/DAC_PSI_1.0/hdl/DAC_PSI_v1_0_S00_AXI.v:523]
+WARNING: [Synth 8-689] width (4) of port connection 'counter' does not match port width (1) of module 'PSI_module' [E:/Memristor_testboard/FPGA_test/DAC_PSI_platform/ip_repo/DAC_PSI_1.0/hdl/DAC_PSI_v1_0_S00_AXI.v:524]
+WARNING: [Synth 8-689] width (4) of port connection 'counter' does not match port width (1) of module 'PSI_module' [E:/Memristor_testboard/FPGA_test/DAC_PSI_platform/ip_repo/DAC_PSI_1.0/hdl/DAC_PSI_v1_0_S00_AXI.v:525]
+WARNING: [Synth 8-689] width (4) of port connection 'counter' does not match port width (1) of module 'PSI_module' [E:/Memristor_testboard/FPGA_test/DAC_PSI_platform/ip_repo/DAC_PSI_1.0/hdl/DAC_PSI_v1_0_S00_AXI.v:526]
+WARNING: [Synth 8-689] width (4) of port connection 'counter' does not match port width (1) of module 'PSI_module' [E:/Memristor_testboard/FPGA_test/DAC_PSI_platform/ip_repo/DAC_PSI_1.0/hdl/DAC_PSI_v1_0_S00_AXI.v:527]
+WARNING: [Synth 8-689] width (4) of port connection 'counter' does not match port width (1) of module 'PSI_module' [E:/Memristor_testboard/FPGA_test/DAC_PSI_platform/ip_repo/DAC_PSI_1.0/hdl/DAC_PSI_v1_0_S00_AXI.v:528]
+WARNING: [Synth 8-689] width (4) of port connection 'counter' does not match port width (1) of module 'PSI_module' [E:/Memristor_testboard/FPGA_test/DAC_PSI_platform/ip_repo/DAC_PSI_1.0/hdl/DAC_PSI_v1_0_S00_AXI.v:529]
+WARNING: [Synth 8-689] width (4) of port connection 'counter' does not match port width (1) of module 'PSI_module' [E:/Memristor_testboard/FPGA_test/DAC_PSI_platform/ip_repo/DAC_PSI_1.0/hdl/DAC_PSI_v1_0_S00_AXI.v:530]
+WARNING: [Synth 8-689] width (4) of port connection 'counter' does not match port width (1) of module 'PSI_module' [E:/Memristor_testboard/FPGA_test/DAC_PSI_platform/ip_repo/DAC_PSI_1.0/hdl/DAC_PSI_v1_0_S00_AXI.v:531]
+WARNING: [Synth 8-689] width (4) of port connection 'counter' does not match port width (1) of module 'PSI_module' [E:/Memristor_testboard/FPGA_test/DAC_PSI_platform/ip_repo/DAC_PSI_1.0/hdl/DAC_PSI_v1_0_S00_AXI.v:532]
+INFO: [Synth 8-6155] done synthesizing module 'DAC_PSI_v1_0_S00_AXI' (2#1) [E:/Memristor_testboard/FPGA_test/DAC_PSI_platform/ip_repo/DAC_PSI_1.0/hdl/DAC_PSI_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'DAC_PSI_v1_0' (3#1) [E:/Memristor_testboard/FPGA_test/DAC_PSI_platform/ip_repo/DAC_PSI_1.0/hdl/DAC_PSI_v1_0.v:4]
+WARNING: [Synth 8-3331] design PSI_module has unconnected port counter
+WARNING: [Synth 8-3331] design DAC_PSI_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design DAC_PSI_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design DAC_PSI_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design DAC_PSI_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design DAC_PSI_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design DAC_PSI_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 806.602 ; gain = 313.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 806.602 ; gain = 313.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k325tffg900-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 806.602 ; gain = 313.258
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k325tffg900-2
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 806.602 ; gain = 313.258
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 5     
+	               12 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 20    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   4 Input     32 Bit        Muxes := 5     
+	   2 Input      4 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 12    
+	   2 Input      1 Bit        Muxes := 9     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module PSI_module 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   3 Input      1 Bit        Muxes := 1     
+Module DAC_PSI_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 5     
+	               12 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   4 Input     32 Bit        Muxes := 5     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 9     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 840 (col length:140)
+BRAMs: 890 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design DAC_PSI_v1_0 has unconnected port s00_axi_awprot[2]
+WARNING: [Synth 8-3331] design DAC_PSI_v1_0 has unconnected port s00_axi_awprot[1]
+WARNING: [Synth 8-3331] design DAC_PSI_v1_0 has unconnected port s00_axi_awprot[0]
+WARNING: [Synth 8-3331] design DAC_PSI_v1_0 has unconnected port s00_axi_arprot[2]
+WARNING: [Synth 8-3331] design DAC_PSI_v1_0 has unconnected port s00_axi_arprot[1]
+WARNING: [Synth 8-3331] design DAC_PSI_v1_0 has unconnected port s00_axi_arprot[0]
+INFO: [Synth 8-3886] merging instance 'DAC_PSI_v1_0_S00_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'DAC_PSI_v1_0_S00_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\DAC_PSI_v1_0_S00_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'DAC_PSI_v1_0_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'DAC_PSI_v1_0_S00_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\DAC_PSI_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1011.125 ; gain = 517.781
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1015.254 ; gain = 521.910
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1015.398 ; gain = 522.055
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1015.398 ; gain = 522.055
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1015.398 ; gain = 522.055
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1015.398 ; gain = 522.055
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1015.398 ; gain = 522.055
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1015.398 ; gain = 522.055
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1015.398 ; gain = 522.055
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     2|
+|2     |LUT1 |     2|
+|3     |LUT2 |     4|
+|4     |LUT3 |     2|
+|5     |LUT4 |    22|
+|6     |LUT5 |     5|
+|7     |LUT6 |    45|
+|8     |FDRE |   198|
+|9     |FDSE |     2|
+|10    |IBUF |    50|
+|11    |OBUF |    44|
++------+-----+------+
+
+Report Instance Areas: 
++------+----------------------------+---------------------+------+
+|      |Instance                    |Module               |Cells |
++------+----------------------------+---------------------+------+
+|1     |top                         |                     |   376|
+|2     |  DAC_PSI_v1_0_S00_AXI_inst |DAC_PSI_v1_0_S00_AXI |   279|
+|3     |    ins0                    |PSI_module           |     3|
+|4     |    ins1                    |PSI_module_0         |     2|
+|5     |    ins10                   |PSI_module_1         |     2|
+|6     |    ins11                   |PSI_module_2         |     1|
+|7     |    ins2                    |PSI_module_3         |     2|
+|8     |    ins3                    |PSI_module_4         |     2|
+|9     |    ins4                    |PSI_module_5         |     2|
+|10    |    ins5                    |PSI_module_6         |     2|
+|11    |    ins6                    |PSI_module_7         |     2|
+|12    |    ins7                    |PSI_module_8         |     2|
+|13    |    ins8                    |PSI_module_9         |     2|
+|14    |    ins9                    |PSI_module_10        |     2|
++------+----------------------------+---------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1015.398 ; gain = 522.055
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 25 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1015.398 ; gain = 522.055
+Synthesis Optimization Complete : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1015.398 ; gain = 522.055
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1027.297 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1131.305 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+23 Infos, 28 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:40 . Memory (MB): peak = 1131.305 ; gain = 638.961
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1131.305 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'E:/Memristor_testboard/FPGA_test/DAC_PSI_platform/ip_repo/edit_DAC_PSI_v1_0.runs/synth_1/DAC_PSI_v1_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file DAC_PSI_v1_0_utilization_synth.rpt -pb DAC_PSI_v1_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Jul 30 20:37:58 2021...

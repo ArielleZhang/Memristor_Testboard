@@ -4,6 +4,12 @@ Running: D:/programs/Xilinx2019.2/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
-WARNING: [VRFC 10-3091] actual bit length 20 differs from formal bit length 1 for port 'CLK_SAMPLE' [E:/Memristor_testboard/FPGA_test/ADC/ADC_SerDes/ADC_SerDes.srcs/sim_1/new/ADC_CLK_tb.v:31]
 Completed static elaboration
-INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1fs
+Compiling module xil_defaultlib.ADC_driver
+Compiling module xil_defaultlib.ADC_DATA
+Compiling module xil_defaultlib.ADC_CLK_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ADC_CLK_tb_behav

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Aug 16 11:07:37 2021
+# Process ID: 1148
+# Current directory: e:/Memristor_testboard/CLS_backend/FPGA_test/DAC/ip_repo/edit_PRBS_v1_0.runs/impl_1
+# Command line: vivado.exe -log PRBS_v1_0.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source PRBS_v1_0.tcl -notrace
+# Log file: e:/Memristor_testboard/CLS_backend/FPGA_test/DAC/ip_repo/edit_PRBS_v1_0.runs/impl_1/PRBS_v1_0.vdi
+# Journal file: e:/Memristor_testboard/CLS_backend/FPGA_test/DAC/ip_repo/edit_PRBS_v1_0.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source PRBS_v1_0.tcl -notrace

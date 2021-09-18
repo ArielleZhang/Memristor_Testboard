@@ -1,0 +1,315 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Aug 16 12:12:58 2021
+# Process ID: 4384
+# Current directory: E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.runs/synth_1
+# Command line: vivado.exe -log stim_rec.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source stim_rec.tcl
+# Log file: E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.runs/synth_1/stim_rec.vds
+# Journal file: E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source stim_rec.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Memristor_testboard/CLS_frontend/ip_repo/PNS_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/programs/Xilinx2019.2/Vivado/2019.2/data/ip'.
+Command: synth_design -top stim_rec -part xc7vx485tffg1157-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-1686] The version limit for your license is '2021.08' and will not allow you to run Xilinx software released after that date (year & month). A version limit expiration means that while you will be able to continue to use the current version of tools or IP with this license, you will not be able to use any updates or new releases.
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 7620 
+WARNING: [Synth 8-6901] identifier 'dac' is used before its declaration [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:107]
+WARNING: [Synth 8-6901] identifier 'dac' is used before its declaration [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:110]
+WARNING: [Synth 8-6901] identifier 'dac' is used before its declaration [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:113]
+WARNING: [Synth 8-6901] identifier 'dac' is used before its declaration [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:116]
+WARNING: [Synth 8-6901] identifier 'dac' is used before its declaration [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:119]
+WARNING: [Synth 8-6901] identifier 'dac' is used before its declaration [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:122]
+WARNING: [Synth 8-6901] identifier 'dac' is used before its declaration [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:125]
+WARNING: [Synth 8-6901] identifier 'dac' is used before its declaration [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:128]
+WARNING: [Synth 8-6901] identifier 'dac' is used before its declaration [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:131]
+WARNING: [Synth 8-6901] identifier 'dac' is used before its declaration [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:134]
+WARNING: [Synth 8-6901] identifier 'dac' is used before its declaration [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:137]
+WARNING: [Synth 8-6901] identifier 'dac' is used before its declaration [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:140]
+WARNING: [Synth 8-6901] identifier 'dac' is used before its declaration [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:143]
+WARNING: [Synth 8-6901] identifier 'dac' is used before its declaration [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:146]
+WARNING: [Synth 8-6901] identifier 'dac' is used before its declaration [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:149]
+WARNING: [Synth 8-6901] identifier 'dac' is used before its declaration [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:152]
+WARNING: [Synth 8-6901] identifier 'mux' is used before its declaration [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:155]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 739.312 ; gain = 243.891
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'stim_rec' [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:67]
+INFO: [Synth 8-6157] synthesizing module 'sevenbitSPI' [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:172]
+INFO: [Synth 8-6157] synthesizing module 'SPI' [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:217]
+INFO: [Synth 8-6155] done synthesizing module 'SPI' (1#1) [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:217]
+INFO: [Synth 8-6155] done synthesizing module 'sevenbitSPI' (2#1) [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:172]
+INFO: [Synth 8-6157] synthesizing module 'sixteenbitSPI' [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:190]
+INFO: [Synth 8-6155] done synthesizing module 'sixteenbitSPI' (3#1) [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:190]
+INFO: [Synth 8-6155] done synthesizing module 'stim_rec' (4#1) [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:23]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 787.117 ; gain = 291.695
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 787.117 ; gain = 291.695
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx485tffg1157-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 787.117 ; gain = 291.695
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+WARNING: [Synth 8-327] inferring latch for variable 'ARR0_reg' [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:68]
+WARNING: [Synth 8-327] inferring latch for variable 'ARR1_reg' [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:70]
+WARNING: [Synth 8-327] inferring latch for variable 'ARR2_reg' [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:72]
+WARNING: [Synth 8-327] inferring latch for variable 'ARR3_reg' [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:74]
+WARNING: [Synth 8-327] inferring latch for variable 'ARR4_reg' [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:76]
+WARNING: [Synth 8-327] inferring latch for variable 'ARR5_reg' [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:78]
+WARNING: [Synth 8-327] inferring latch for variable 'ARR6_reg' [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:80]
+WARNING: [Synth 8-327] inferring latch for variable 'ARR7_reg' [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:82]
+WARNING: [Synth 8-327] inferring latch for variable 'ARR8_reg' [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:84]
+WARNING: [Synth 8-327] inferring latch for variable 'ARR9_reg' [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:86]
+WARNING: [Synth 8-327] inferring latch for variable 'ARR10_reg' [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:88]
+WARNING: [Synth 8-327] inferring latch for variable 'ARR11_reg' [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:90]
+WARNING: [Synth 8-327] inferring latch for variable 'ARR12_reg' [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:92]
+WARNING: [Synth 8-327] inferring latch for variable 'ARR13_reg' [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:94]
+WARNING: [Synth 8-327] inferring latch for variable 'ARR14_reg' [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:96]
+WARNING: [Synth 8-327] inferring latch for variable 'ARR15_reg' [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:98]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 787.117 ; gain = 291.695
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+	                7 Bit    Registers := 16    
+	                1 Bit    Registers := 23    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 16    
+	  16 Input      1 Bit        Muxes := 16    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module stim_rec 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+	                7 Bit    Registers := 16    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 16    
+	  16 Input      1 Bit        Muxes := 16    
+Module SPI 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 2800 (col length:140)
+BRAMs: 2060 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-4471] merging register 'insmux/ins0/DATA_OUT_reg' into 'insdac/ins0/DATA_OUT_reg' [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:226]
+INFO: [Synth 8-4471] merging register 'insmux/ins1/DATA_OUT_reg' into 'insdac/ins1/DATA_OUT_reg' [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:226]
+INFO: [Synth 8-4471] merging register 'insmux/ins2/DATA_OUT_reg' into 'insdac/ins2/DATA_OUT_reg' [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:226]
+INFO: [Synth 8-4471] merging register 'insmux/ins3/DATA_OUT_reg' into 'insdac/ins3/DATA_OUT_reg' [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:226]
+INFO: [Synth 8-4471] merging register 'insmux/ins4/DATA_OUT_reg' into 'insdac/ins4/DATA_OUT_reg' [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:226]
+INFO: [Synth 8-4471] merging register 'insmux/ins5/DATA_OUT_reg' into 'insdac/ins5/DATA_OUT_reg' [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:226]
+INFO: [Synth 8-4471] merging register 'insmux/ins6/DATA_OUT_reg' into 'insdac/ins6/DATA_OUT_reg' [E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.srcs/sources_1/new/stim_rec.v:226]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1130.086 ; gain = 634.664
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1134.758 ; gain = 639.336
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1134.758 ; gain = 639.336
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1134.801 ; gain = 639.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1134.801 ; gain = 639.379
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1134.801 ; gain = 639.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1134.801 ; gain = 639.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1134.801 ; gain = 639.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1134.801 ; gain = 639.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT1 |     2|
+|3     |LUT2 |    16|
+|4     |LUT5 |    16|
+|5     |FDRE |   144|
+|6     |LD   |    16|
+|7     |IBUF |     8|
+|8     |OBUF |   128|
++------+-----+------+
+
+Report Instance Areas: 
++------+----------+--------------+------+
+|      |Instance  |Module        |Cells |
++------+----------+--------------+------+
+|1     |top       |              |   331|
+|2     |  insdac  |sevenbitSPI   |     7|
+|3     |    ins0  |SPI_8         |     1|
+|4     |    ins1  |SPI_9         |     1|
+|5     |    ins2  |SPI_10        |     1|
+|6     |    ins3  |SPI_11        |     1|
+|7     |    ins4  |SPI_12        |     1|
+|8     |    ins5  |SPI_13        |     1|
+|9     |    ins6  |SPI_14        |     1|
+|10    |  insmux  |sixteenbitSPI |    10|
+|11    |    ins10 |SPI           |     1|
+|12    |    ins11 |SPI_0         |     1|
+|13    |    ins12 |SPI_1         |     1|
+|14    |    ins13 |SPI_2         |     1|
+|15    |    ins14 |SPI_3         |     1|
+|16    |    ins15 |SPI_4         |     2|
+|17    |    ins7  |SPI_5         |     1|
+|18    |    ins8  |SPI_6         |     1|
+|19    |    ins9  |SPI_7         |     1|
++------+----------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1134.801 ; gain = 639.379
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 33 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1134.801 ; gain = 639.379
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1134.801 ; gain = 639.379
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1147.688 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1258.527 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 16 instances were transformed.
+  LD => LDCE: 16 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+29 Infos, 33 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:54 . Memory (MB): peak = 1258.527 ; gain = 770.109
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1258.527 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'E:/Memristor_testboard/CLS_frontend/Stim_recorder/Stim_recorder.runs/synth_1/stim_rec.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file stim_rec_utilization_synth.rpt -pb stim_rec_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Aug 16 12:14:04 2021...

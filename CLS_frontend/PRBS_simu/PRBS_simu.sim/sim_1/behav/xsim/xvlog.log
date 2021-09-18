@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Memristor_testboard/CLS_frontend/PRBS_simu/PRBS_simu.srcs/sources_1/new/PRBS_simu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module prbs_generator
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Memristor_testboard/CLS_frontend/PRBS_simu/PRBS_simu.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb

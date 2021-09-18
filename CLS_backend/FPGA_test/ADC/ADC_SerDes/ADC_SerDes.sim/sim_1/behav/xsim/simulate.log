@@ -1,2 +1,3 @@
 Vivado Simulator 2019.2
 Time resolution is 1 fs
+$stop called at time : 1 us : File "E:/Memristor_testboard/CLS_backend/FPGA_test/ADC/ADC_SerDes/ADC_SerDes.srcs/sim_1/new/ADC_CLK_tb.v" Line 50
